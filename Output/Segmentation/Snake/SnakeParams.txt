@@ -1,0 +1,13 @@
+---Pupil---
+a = 1.500000
+b = 4.500000
+g = 1.000000
+nIter = 15
+neighborSize = 100
+
+---Iris---
+a = 1.500000
+b = 4.500000
+g = 1.000000
+nIter = 15
+neighborSize = 100

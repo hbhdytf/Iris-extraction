@@ -1,0 +1,16 @@
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0001_ir1_Norm	0.0000008.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0001_ir2_Norm	0.4379198.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0001_ir3_Norm	0.2582648.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0001_ir4_Norm	0.4456378.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0002_ir1_Norm	0.2791958.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0002_ir2_Norm	0.4624328.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0002_ir3_Norm	0.3418868.6
+fs_ds2_s0001_ir1_Norm	fs_ds2_s0002_ir4_Norm	0.4280878.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0001_ir1_Norm	0.4466678.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0001_ir2_Norm	0.0000008.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0001_ir3_Norm	0.4520128.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0001_ir4_Norm	0.2330438.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0002_ir1_Norm	0.4404588.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0002_ir2_Norm	0.2878058.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0002_ir3_Norm	0.4341698.6
+fs_ds2_s0001_ir2_Norm	fs_ds2_s0002_ir4_Norm	0.2334368.6

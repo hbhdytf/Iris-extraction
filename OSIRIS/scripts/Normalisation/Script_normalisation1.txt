@@ -1,0 +1,15 @@
+Options: -w -k -p
+Filter: /home/sandy/Iris/OSIRIS/OsirisParam/GaborFilterBank.txt
+Points: /home/sandy/Iris/OSIRIS/OsirisParam/Point.txt
+Path_results: /home/sandy/Iris/Output/Normalisation/
+Result_file: Resultat_Norm.txt
+Path_source: /home/sandy/Iris/Output/Segmentation/
+Match:	fs_ds2_s0001_ir1.bmp	fs_ds2_s0001_ir1_mask.bmp	fs_ds2_s0001_ir1.Param	fs_ds2_s0001_ir1.Param
+Match:	fs_ds2_s0001_ir2.bmp	fs_ds2_s0001_ir2_mask.bmp	fs_ds2_s0001_ir2.Param	fs_ds2_s0001_ir2.Param
+Match:	fs_ds2_s0001_ir3.bmp	fs_ds2_s0001_ir3_mask.bmp	fs_ds2_s0001_ir3.Param	fs_ds2_s0001_ir3.Param
+Match:	fs_ds2_s0001_ir4.bmp	fs_ds2_s0001_ir4_mask.bmp	fs_ds2_s0001_ir4.Param	fs_ds2_s0001_ir4.Param
+Match:	fs_ds2_s0002_ir1.bmp	fs_ds2_s0002_ir1_mask.bmp	fs_ds2_s0002_ir1.Param	fs_ds2_s0002_ir1.Param
+Match:	fs_ds2_s0002_ir2.bmp	fs_ds2_s0002_ir2_mask.bmp	fs_ds2_s0002_ir2.Param	fs_ds2_s0002_ir2.Param
+Match:	fs_ds2_s0002_ir3.bmp	fs_ds2_s0002_ir3_mask.bmp	fs_ds2_s0002_ir3.Param	fs_ds2_s0002_ir3.Param
+Match:	fs_ds2_s0002_ir4.bmp	fs_ds2_s0002_ir4_mask.bmp	fs_ds2_s0002_ir4.Param	fs_ds2_s0002_ir4.Param
+

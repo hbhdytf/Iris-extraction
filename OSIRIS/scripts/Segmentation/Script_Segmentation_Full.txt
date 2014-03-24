@@ -1,0 +1,57 @@
+Options: -d -l -i
+
+input_Dir = /media/Media/Evaluation/OSIRIS/image/
+fileList = /media/Media/Evaluation/OSIRIS/param/ImageList.txt
+	
+mask_Dir =  /media/Media/Evaluation/OSIRIS/image/ 
+snake_Dir =  /media/Media/Evaluation/OSIRIS/image/ 
+
+	
+segment_Hough_Dir =  /media/Media/Evaluation/OSIRIS/image/ 
+segment_Reference_Dir =  /media/Media/mnt_vie/IV2_iris/Base_comp/ 
+file_result_comp_Pupil =  ../../pupilComp.txt 
+file_result_comp_Iris =  ../../irisComp.txt 
+
+	
+deb_Binary_Dir =  ../../debug/Binary/ 
+deb_Pupil_Binary_Dir =  ../../debug/PupilBinary/ 
+deb_Iris_Binary_Dir =  ../../debug/IrisBinary/ 
+deb_Iris_Binary_Dir =  /mnt/vie/Data/IrisBinary/
+deb_Pupil_Region_Dir =  ../../debug/PupilRegion/ 
+deb_Iris_Region_Dir =  ../../debug/IrisRegion/ 
+deb_Pupil_Pretreatement_Dir =  ../../debug/PretraitementPupil/ 
+deb_Iris_Pretreatement_Dir =  ../../debug/PretraitementIris/ 
+deb_Pupil_Segment_Dir =  ../../debug/PupilSeg/ 
+deb_Iris_Segment_Dir =  ../../debug/IrisSeg/ 
+
+
+	
+scale = 0.6
+nPointPupil = 200
+nPointIris = 800
+
+Pupil_Snake_alpha = 1.5	
+Pupil_Snake_beta = 4.5
+Pupil_Snake_gamma = 1.0
+Pupil_Snake_neighborSize = 15
+Pupil_Snake_nIterations = 100
+		
+Iris_Snake_alpha = 5.0
+Iris_Snake_beta = 10.0
+Iris_Snake_gamma = 1.0
+Iris_Snake_neighborSize = 15
+Iris_Snake_nIterations = 200	
+	
+
+start = 0
+
+ command = default
+% command = pupil_seg_init
+% command = pupil_seg_snake
+% command = iris_seg_init
+% command = iris_seg_snake
+% command = iris_pupil_seg_init
+% command = iris_pupil_seg_snake
+
+
+

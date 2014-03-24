@@ -1,0 +1,36 @@
+###########################################################
+##################### IRIS SAMPLES  #######################
+############## © Association BioSecure, 2009 ##############
+###########################################################
+
+
+######################### FOREWORD ########################
+
+The iris samples come from the BioSecure Iris dataset. 
+These samples are available for free and contain data of two persons (male and female).
+
+####################### ABBREVIATION ######################
+
+All iris files have the same abbreviation:
+
+ID_dataset_session_type.ext
+
+ID:
+--
+fs: female sample
+ms: male sample
+
+dataset:
+-------
+ds2: Desktop dataset
+
+session:
+-------
+s0001: session 1
+s0002: session 2
+
+type:
+----
+ir:  iris acquired with the LG EOU3000 sensor
+1&3: right iris
+2&4: left iris

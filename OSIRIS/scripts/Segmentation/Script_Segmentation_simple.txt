@@ -1,0 +1,19 @@
+% Les options
+Options: -d -l -i
+
+% Le repertoire contient les images d'entree
+input_Dir = /media/Media/Evaluation/OSIRIS/image/
+
+% Le fichier contient la liste des images a traiter
+% Le premier ligne de ce fichier indique le nombre de image dans cette liste
+% Les lignes suivant, chaque ligne contient le nom d'une image
+fileList = /media/Media/Evaluation/OSIRIS/param/ImageList.txt
+
+% Le repertoire contient le masque et les parametres pour l'etape normalisation
+mask_Dir =  /media/Media/Evaluation/OSIRIS/image/ 
+
+% Le repertoire contient le resultat du contour actif
+snake_Dir =  /media/Media/Evaluation/OSIRIS/image/ 
+	
+% Ce repertoire contient la segmentation initialle en utilisant la transformee de Hough
+segment_Hough_Dir =  /media/Media/Evaluation/OSIRIS/image/ 

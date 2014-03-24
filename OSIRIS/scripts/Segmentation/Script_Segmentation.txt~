@@ -1,0 +1,19 @@
+
+Options: -d -l -i
+
+
+input_Dir = /home/sandy/Iris/bmp/
+
+
+fileList = /home/sandy/Iris/OSIRIS/scripts/Segmentation/ImageList1.txt 
+
+
+%Mask
+mask_Dir =  /home/sandy/Output/Segmentation/
+
+%Contour initial
+segment_Hough_Dir =  /home/sandy/Output/Segmentation/Hough/
+
+%Contour final
+snake_Dir =  /home/sandy/Output/Segmentation/Snake/
+	

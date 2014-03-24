@@ -1,0 +1,9 @@
+8
+fs_ds2_s0001_ir1.bmp
+fs_ds2_s0001_ir2.bmp
+fs_ds2_s0001_ir3.bmp
+fs_ds2_s0001_ir4.bmp
+fs_ds2_s0002_ir1.bmp
+fs_ds2_s0002_ir2.bmp
+fs_ds2_s0002_ir3.bmp
+fs_ds2_s0002_ir4.bmp

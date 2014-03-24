@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libcvhaartraining.a  CMakeFiles/cvhaartraining.dir/cvboost.o CMakeFiles/cvhaartraining.dir/cvcommon.o CMakeFiles/cvhaartraining.dir/cvhaarclassifier.o CMakeFiles/cvhaartraining.dir/cvhaartraining.o CMakeFiles/cvhaartraining.dir/cvsamples.o
+/usr/bin/ranlib ../../lib/libcvhaartraining.a
