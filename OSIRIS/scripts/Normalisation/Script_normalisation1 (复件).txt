@@ -1,0 +1,17 @@
+Options: -w -k -p
+Filter: /home/sandy/Iris/OSIRIS/OsirisParam/GaborFilterBank.txt
+Points: /home/sandy/Iris/OSIRIS/OsirisParam/Point.txt
+Path_results: /home/sandy/Iris/Output/Normalisation/
+Result_file: Resultat_Norm.txt
+Path_source: /home/sandy/Iris/Output/Segmentation/
+Match:	S1001L01.bmp	S1001L01_mask.bmp	S1001L01.Param	S1001L01.Param
+Match:	S1001L02.bmp	S1001L02_mask.bmp	S1001L02.Param	S1001L02.Param
+Match:	S1001L03.bmp	S1001L03_mask.bmp	S1001L03.Param	S1001L03.Param
+Match:	S1001L04.bmp	S1001L04_mask.bmp	S1001L04.Param	S1001L04.Param
+Match:	S1001L05.bmp	S1001L05_mask.bmp	S1001L05.Param	S1001L05.Param
+Match:	S1001L06.bmp	S1001L06_mask.bmp	S1001L06.Param	S1001L06.Param
+Match:	S1001L07.bmp	S1001L07_mask.bmp	S1001L07.Param	S1001L07.Param
+Match:	S1001L08.bmp	S1001L08_mask.bmp	S1001L08.Param	S1001L08.Param
+Match:	S1001L09.bmp	S1001L09_mask.bmp	S1001L09.Param	S1001L09.Param
+Match:	S1001L10.bmp	S1001L10_mask.bmp	S1001L10.Param	S1001L10.Param
+

@@ -4,12 +4,23 @@ Points: /home/sandy/Iris/OSIRIS/OsirisParam/Point.txt
 Path_results: /home/sandy/Iris/Output/Normalisation/
 Result_file: Resultat_Norm.txt
 Path_source: /home/sandy/Iris/Output/Segmentation/
-Match:	fs_ds2_s0001_ir1.bmp	fs_ds2_s0001_ir1_mask.bmp	fs_ds2_s0001_ir1.Param	fs_ds2_s0001_ir1.Param
-Match:	fs_ds2_s0001_ir2.bmp	fs_ds2_s0001_ir2_mask.bmp	fs_ds2_s0001_ir2.Param	fs_ds2_s0001_ir2.Param
-Match:	fs_ds2_s0001_ir3.bmp	fs_ds2_s0001_ir3_mask.bmp	fs_ds2_s0001_ir3.Param	fs_ds2_s0001_ir3.Param
-Match:	fs_ds2_s0001_ir4.bmp	fs_ds2_s0001_ir4_mask.bmp	fs_ds2_s0001_ir4.Param	fs_ds2_s0001_ir4.Param
-Match:	fs_ds2_s0002_ir1.bmp	fs_ds2_s0002_ir1_mask.bmp	fs_ds2_s0002_ir1.Param	fs_ds2_s0002_ir1.Param
-Match:	fs_ds2_s0002_ir2.bmp	fs_ds2_s0002_ir2_mask.bmp	fs_ds2_s0002_ir2.Param	fs_ds2_s0002_ir2.Param
-Match:	fs_ds2_s0002_ir3.bmp	fs_ds2_s0002_ir3_mask.bmp	fs_ds2_s0002_ir3.Param	fs_ds2_s0002_ir3.Param
-Match:	fs_ds2_s0002_ir4.bmp	fs_ds2_s0002_ir4_mask.bmp	fs_ds2_s0002_ir4.Param	fs_ds2_s0002_ir4.Param
-
+Match:	S1001L01.bmp	S1001L01_mask.bmp	S1001L01.Param	S1001L01.Param
+Match:	S1001L02.bmp	S1001L02_mask.bmp	S1001L02.Param	S1001L02.Param
+Match:	S1001L03.bmp	S1001L03_mask.bmp	S1001L03.Param	S1001L03.Param
+Match:	S1001L04.bmp	S1001L04_mask.bmp	S1001L04.Param	S1001L04.Param
+Match:	S1001L05.bmp	S1001L05_mask.bmp	S1001L05.Param	S1001L05.Param
+Match:	S1001L06.bmp	S1001L06_mask.bmp	S1001L06.Param	S1001L06.Param
+Match:	S1001L07.bmp	S1001L07_mask.bmp	S1001L07.Param	S1001L07.Param
+Match:	S1001L08.bmp	S1001L08_mask.bmp	S1001L08.Param	S1001L08.Param
+Match:	S1001L09.bmp	S1001L09_mask.bmp	S1001L09.Param	S1001L09.Param
+Match:	S1001L10.bmp	S1001L10_mask.bmp	S1001L10.Param	S1001L10.Param
+Match:	S1002L01.bmp	S1002L01_mask.bmp	S1002L01.Param	S1002L01.Param
+Match:	S1002L02.bmp	S1002L02_mask.bmp	S1002L02.Param	S1002L02.Param
+Match:	S1002L03.bmp	S1002L03_mask.bmp	S1002L03.Param	S1002L03.Param
+Match:	S1002L04.bmp	S1002L04_mask.bmp	S1002L04.Param	S1002L04.Param
+Match:	S1002L05.bmp	S1002L05_mask.bmp	S1002L05.Param	S1002L05.Param
+Match:	S1002L06.bmp	S1002L06_mask.bmp	S1002L06.Param	S1002L06.Param
+Match:	S1002L07.bmp	S1002L07_mask.bmp	S1002L07.Param	S1002L07.Param
+Match:	S1002L08.bmp	S1002L08_mask.bmp	S1002L08.Param	S1002L08.Param
+Match:	S1002L09.bmp	S1002L09_mask.bmp	S1002L09.Param	S1002L09.Param
+Match:	S1002L10.bmp	S1002L10_mask.bmp	S1002L10.Param	S1002L10.Param

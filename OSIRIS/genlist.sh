@@ -8,7 +8,7 @@
 File="ImageList1.txt"
 #touch $File
 cd ~/Iris/bmp/
-find *.bmp -type f |wc -l > $File
-find *.bmp -type f >> $File
+find ./ -name "*.bmp"  |wc -l > $File
+find *.bmp  >> $File
 mv $File ~/Iris/OSIRIS/scripts/Segmentation/$File
 

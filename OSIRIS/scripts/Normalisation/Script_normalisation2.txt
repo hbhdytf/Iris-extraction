@@ -1,0 +1,8 @@
+Options: -w -k -p
+Filter: /home/sandy/Iris/OSIRIS/OsirisParam/GaborFilterBank.txt
+Points: /home/sandy/Iris/OSIRIS/OsirisParam/Point.txt
+Path_results: /home/sandy/Iris/Output/Normalisation/
+Result_file: Resultat_Norm.txt
+Path_source: /home/sandy/Iris/Output/Segmentation/
+Match:	fs_ds2_s0001_ir1.bmp	fs_ds2_s0001_ir1_mask.bmp	fs_ds2_s0001_ir1.Param	fs_ds2_s0001_ir1.Param
+

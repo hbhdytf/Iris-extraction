@@ -1,0 +1,22 @@
+Options: -e -c
+Filter: /home/sandy/Iris/OSIRIS/OsirisParam/GaborFilterBank.txt
+Points: /home/sandy/Iris/OSIRIS/OsirisParam/Point.txt
+Path_results: /home/sandy/Iris/Output/Matching/
+Path_source: /home/sandy/Iris/Output/Normalisation/
+Result_file: Script_feature.txt
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0001_ir3_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0001_ir3_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0001_ir4_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0001_ir4_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0002_ir1_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0002_ir1_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0002_ir2_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0002_ir2_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0002_ir3_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0002_ir3_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0002_ir4_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp	fs_ds2_s0002_ir4_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0001_ir1_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0001_ir1_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0001_ir3_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0001_ir3_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0001_ir4_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0001_ir4_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0002_ir1_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0002_ir1_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0002_ir2_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0002_ir2_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0002_ir3_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0002_ir3_mask_Norm.bmp
+Match:	fs_ds2_s0001_ir2_Norm.bmp	fs_ds2_s0002_ir4_Norm.bmp	fs_ds2_s0001_ir2_mask_Norm.bmp	fs_ds2_s0002_ir4_mask_Norm.bmp

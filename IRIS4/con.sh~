@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 mkdir -p ~/Iris/out/tiff
-for files in ~/bmp/*.bmp
+for files in ~/Iris/bmp/*.bmp
 do
 	ncfile=$(basename $files)
 	suffix=".*"
