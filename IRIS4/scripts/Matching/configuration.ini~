@@ -24,8 +24,8 @@ List of images = ../scripts/Matching/ImageList.txt
 #Load parameters = 
 #Load masks = 
 #Load normalized images = 
-Load normalized masks = C:/MyWork/Cygwin_Results/ICE/OSIV4.1/NormalizedMasks/
-Load iris codes = C:/MyWork/Cygwin_Results/ICE/OSIV4.1/IrisCodes/
+Load normalized masks = /home/sandy/Iris/out/NormalizedMasks/
+Load iris codes = /home/sandy/Iris/out/IrisCodes/
 
 
 #####################################################################

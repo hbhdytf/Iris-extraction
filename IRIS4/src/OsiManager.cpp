@@ -502,6 +502,7 @@ namespace osiris
         {
             if ( mInputDirOriginalImages != "" )
             {
+             //   cout<<mInputDirOriginalImages+rFileName<<endl;
                 rEye.loadOriginalImage(mInputDirOriginalImages+rFileName) ;                
             }
             else
@@ -588,6 +589,8 @@ namespace osiris
         // Load iris code
         if ( mInputDirIrisCodes != "" )
         {
+            //YTF
+            cout<<mInputDirIrisCodes+short_name+mSuffixIrisCodes<<endl;
             rEye.loadIrisCode(mInputDirIrisCodes+short_name+mSuffixIrisCodes) ;
         }
 

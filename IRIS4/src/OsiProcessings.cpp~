@@ -521,9 +521,9 @@ namespace osiris
         /*YTF
         cout<<"YTF "<<m<<endl;
         cvNamedWindow("src",0);  
-        cvShowImage("src",shifted);  
+        cvShowImage("src",shifted);  */
         cvSaveImage("/home/sandy/2.jpg",shifted);
-        */
+        
         
         // The minimum score will be returned
         float score = 1 ;
@@ -551,6 +551,7 @@ namespace osiris
             score = min(score,mean) ;
         }
         //m++;
+        cvSaveImage("/home/sandy/1.jpg",shifted);
         // Free memory
         cvReleaseImage(&shifted) ;
         cvReleaseImage(&result) ;

@@ -403,13 +403,13 @@ namespace osiris
         {
             mpNormalizedMask = cvCreateImage(cvGetSize(pApplicationPoints),IPL_DEPTH_8U,1) ;
             cvSet(mpNormalizedMask,cvScalar(255)) ;
-            //cout << "Normalized mask of image 1 is missing for matching. All pixels are initialized to 255" << endl ;
+            cout << "Normalized mask of image 1 is missing for matching. All pixels are initialized to 255" << endl ;
         }
         if ( ! rEye.mpNormalizedMask )
         {
             rEye.mpNormalizedMask = cvCreateImage(cvGetSize(pApplicationPoints),IPL_DEPTH_8U,1) ;
             cvSet(rEye.mpNormalizedMask,cvScalar(255)) ;
-            //cout << "Normalized mask of image 2 is missing for matching. All pixels are initialized to 255" << endl ;
+            cout << "Normalized mask of image 2 is missing for matching. All pixels are initialized to 255" << endl ;
         }
 
         // Build the total mask = mask1 * mask2 * points    

@@ -1,0 +1,577 @@
+S1001L01.tiff
+S1001L02.tiff
+S1001L03.tiff
+S1001L04.tiff
+S1001L05.tiff
+S1001L06.tiff
+S1001L07.tiff
+S1001L08.tiff
+S1001L09.tiff
+S1001L10.tiff
+/home/sandy/Iris/IRIS4
+=============
+Configuration
+=============
+
+- Process : | segmentation || normalization || encoding |
+- List of images ../scripts/Template/ImageList.txt contains 10 images
+
+- Original images will be loaded from : /home/sandy/Iris/out/tiff/
+
+- Segmented images will be saved as : /home/sandy/Iris/out/SegmentedImages/XXX_segm.bmp
+- Parameters will be saved as : /home/sandy/Iris/out/CircleParameters/XXX_para.txt
+- Masks will be saved as : /home/sandy/Iris/out/Masks/XXX_mask.bmp
+- Normalized images will be saved as : /home/sandy/Iris/out/NormalizedImages/XXX_imno.bmp
+- Normalized masks will be saved as : /home/sandy/Iris/out/NormalizedMasks/XXX_mano.bmp
+- Iris codes will be saved as : /home/sandy/Iris/out/IrisCodes/XXX_code.bmp
+
+- Pupil diameter ranges from 50 to 160
+- Iris diameter ranges from 160 to 280
+- Size of normalized iris is 512 x 64
+
+- 6 Gabor filters : 9x15 9x15 9x27 9x27 9x51 9x51 
+
+================
+Start processing
+================
+
+1 / 10
+2 / 10
+3 / 10
+4 / 10
+5 / 10
+6 / 10
+7 / 10
+8 / 10
+9 / 10
+10 / 10
+
+==============
+End processing
+==============
+
+=============
+Configuration
+=============
+
+- Process : | matching |
+- List of images ../scripts/Matching/ImageList.txt contains 200 images
+
+- Normalized masks will be loaded from : /home/sandy/Iris/out/NormalizedMasks/
+- Iris codes will be loaded from : /home/sandy/Iris/out/IrisCodes/
+
+- Matching scores will be saved in : ../scores/list_result_matching_inter.txt
+
+- Size of normalized iris is 512 x 64
+
+- 256 application points
+
+================
+Start processing
+================
+
+1 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+2 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+3 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+4 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+5 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+6 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+7 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+8 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+9 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+10 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+11 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+12 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+13 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+14 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+15 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+16 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+17 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+18 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+19 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+20 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+21 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+22 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+23 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+24 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+25 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+26 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+27 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+28 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+29 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+30 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+31 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+32 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+33 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+34 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+35 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+36 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+37 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+38 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+39 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+40 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+41 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+42 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+43 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+44 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+45 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+46 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+47 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+48 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+49 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+50 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+51 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+52 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+53 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+54 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+55 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+56 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+57 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+58 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+59 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+60 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+61 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+62 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+63 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+64 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+65 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+66 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+67 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+68 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+69 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+70 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+71 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+72 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+73 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+74 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+75 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+76 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+77 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+78 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+79 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+80 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+81 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+82 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+83 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+84 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+85 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+86 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+87 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+88 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+89 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+90 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+91 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+92 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+93 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+94 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+95 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+96 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+97 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+98 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+99 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+100 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+101 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+102 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+103 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+104 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+105 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+106 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+107 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+108 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+109 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+110 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+111 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+112 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+113 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+114 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+115 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+116 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+117 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+118 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+119 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+120 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+121 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+122 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+123 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+124 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+125 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+126 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+127 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+128 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+129 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+130 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+131 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+132 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+133 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+134 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+135 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+136 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+137 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+138 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+139 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+140 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+141 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+142 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+143 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+144 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+145 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+146 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+147 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+148 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+149 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+150 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+151 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+152 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+153 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+154 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+155 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+156 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+157 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+158 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+159 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+160 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+161 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+162 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+163 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+164 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+165 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+166 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+167 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+168 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+169 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+170 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+171 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+172 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+173 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+174 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+175 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+176 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+177 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+178 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+179 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+180 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+181 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+182 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L01_code.bmp
+YTF
+183 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+184 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L02_code.bmp
+YTF
+185 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+186 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L03_code.bmp
+YTF
+187 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+188 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L04_code.bmp
+YTF
+189 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+190 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L05_code.bmp
+YTF
+191 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+192 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L06_code.bmp
+YTF
+193 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+194 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L07_code.bmp
+YTF
+195 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+196 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L08_code.bmp
+YTF
+197 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+198 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L09_code.bmp
+YTF
+199 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+200 / 200
+/home/sandy/Iris/out/IrisCodes/S1001L10_code.bmp
+YTF
+
+==============
+End processing
+==============
+

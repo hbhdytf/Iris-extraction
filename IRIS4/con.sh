@@ -5,6 +5,7 @@
 # Created Time: 2014年03月24日 星期一 16时53分09秒
 #########################################################################
 #!/bin/bash
+trash-put -rf ~/Iris/out/
 mkdir -p ~/Iris/out/{tiff,SegmentedImages,NormalizedMasks,NormalizedImages,Masks,IrisCodes,CircleParameters}
 for files in ~/Iris/bmp/*.bmp
 do
