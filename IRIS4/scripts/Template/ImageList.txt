@@ -1,2 +1,6 @@
 S1001L04.tiff
 S1001L06.tiff
+S1002L02.tiff
+S1002L03.tiff
+S1002L09.tiff
+S1002L10.tiff

@@ -52,101 +52,9 @@ include tests/ml/CMakeFiles/mltest.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/ml/CMakeFiles/mltest.dir/flags.make
 
-tests/ml/CMakeFiles/mltest.dir/src/mltests.o: tests/ml/CMakeFiles/mltest.dir/flags.make
-tests/ml/CMakeFiles/mltest.dir/src/mltests.o: ../tests/ml/src/mltests.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/mltests.o"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/mltests.o -c /home/sandy/Iris/OPENCV/tests/ml/src/mltests.cpp
-
-tests/ml/CMakeFiles/mltest.dir/src/mltests.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/mltests.i"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/mltests.cpp > CMakeFiles/mltest.dir/src/mltests.i
-
-tests/ml/CMakeFiles/mltest.dir/src/mltests.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/mltests.s"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/mltests.cpp -o CMakeFiles/mltest.dir/src/mltests.s
-
-tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires:
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires
-
-tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides: tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires
-	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides.build
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides
-
-tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/mltests.o
-
-tests/ml/CMakeFiles/mltest.dir/src/amltests.o: tests/ml/CMakeFiles/mltest.dir/flags.make
-tests/ml/CMakeFiles/mltest.dir/src/amltests.o: ../tests/ml/src/amltests.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/amltests.o"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/amltests.o -c /home/sandy/Iris/OPENCV/tests/ml/src/amltests.cpp
-
-tests/ml/CMakeFiles/mltest.dir/src/amltests.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/amltests.i"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/amltests.cpp > CMakeFiles/mltest.dir/src/amltests.i
-
-tests/ml/CMakeFiles/mltest.dir/src/amltests.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/amltests.s"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/amltests.cpp -o CMakeFiles/mltest.dir/src/amltests.s
-
-tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires:
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires
-
-tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides: tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires
-	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides.build
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides
-
-tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/amltests.o
-
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.o: tests/ml/CMakeFiles/mltest.dir/flags.make
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.o: ../tests/ml/src/slmltests.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/slmltests.o"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/slmltests.o -c /home/sandy/Iris/OPENCV/tests/ml/src/slmltests.cpp
-
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/slmltests.i"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/slmltests.cpp > CMakeFiles/mltest.dir/src/slmltests.i
-
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/slmltests.s"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/slmltests.cpp -o CMakeFiles/mltest.dir/src/slmltests.s
-
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires:
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires
-
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires
-	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides.build
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides
-
-tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o
-
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o: tests/ml/CMakeFiles/mltest.dir/flags.make
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o: ../tests/ml/src/mltest_main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/mltest_main.o -c /home/sandy/Iris/OPENCV/tests/ml/src/mltest_main.cpp
-
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/mltest_main.i"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/mltest_main.cpp > CMakeFiles/mltest.dir/src/mltest_main.i
-
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/mltest_main.s"
-	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/mltest_main.cpp -o CMakeFiles/mltest.dir/src/mltest_main.s
-
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires:
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires
-
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires
-	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides.build
-.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides
-
-tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o
-
 tests/ml/CMakeFiles/mltest.dir/src/aemknearestkmeans.o: tests/ml/CMakeFiles/mltest.dir/flags.make
 tests/ml/CMakeFiles/mltest.dir/src/aemknearestkmeans.o: ../tests/ml/src/aemknearestkmeans.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/aemknearestkmeans.o"
 	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/aemknearestkmeans.o -c /home/sandy/Iris/OPENCV/tests/ml/src/aemknearestkmeans.cpp
 
@@ -169,7 +77,7 @@ tests/ml/CMakeFiles/mltest.dir/src/aemknearestkmeans.o.provides.build: tests/ml/
 
 tests/ml/CMakeFiles/mltest.dir/src/precomp.o: tests/ml/CMakeFiles/mltest.dir/flags.make
 tests/ml/CMakeFiles/mltest.dir/src/precomp.o: ../tests/ml/src/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/precomp.o"
 	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/precomp.o -c /home/sandy/Iris/OPENCV/tests/ml/src/precomp.cpp
 
@@ -190,24 +98,116 @@ tests/ml/CMakeFiles/mltest.dir/src/precomp.o.provides: tests/ml/CMakeFiles/mltes
 
 tests/ml/CMakeFiles/mltest.dir/src/precomp.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/precomp.o
 
+tests/ml/CMakeFiles/mltest.dir/src/amltests.o: tests/ml/CMakeFiles/mltest.dir/flags.make
+tests/ml/CMakeFiles/mltest.dir/src/amltests.o: ../tests/ml/src/amltests.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/amltests.o"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/amltests.o -c /home/sandy/Iris/OPENCV/tests/ml/src/amltests.cpp
+
+tests/ml/CMakeFiles/mltest.dir/src/amltests.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/amltests.i"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/amltests.cpp > CMakeFiles/mltest.dir/src/amltests.i
+
+tests/ml/CMakeFiles/mltest.dir/src/amltests.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/amltests.s"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/amltests.cpp -o CMakeFiles/mltest.dir/src/amltests.s
+
+tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires:
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires
+
+tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides: tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires
+	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides.build
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides
+
+tests/ml/CMakeFiles/mltest.dir/src/amltests.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/amltests.o
+
+tests/ml/CMakeFiles/mltest.dir/src/mltests.o: tests/ml/CMakeFiles/mltest.dir/flags.make
+tests/ml/CMakeFiles/mltest.dir/src/mltests.o: ../tests/ml/src/mltests.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/mltests.o"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/mltests.o -c /home/sandy/Iris/OPENCV/tests/ml/src/mltests.cpp
+
+tests/ml/CMakeFiles/mltest.dir/src/mltests.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/mltests.i"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/mltests.cpp > CMakeFiles/mltest.dir/src/mltests.i
+
+tests/ml/CMakeFiles/mltest.dir/src/mltests.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/mltests.s"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/mltests.cpp -o CMakeFiles/mltest.dir/src/mltests.s
+
+tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires:
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires
+
+tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides: tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires
+	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides.build
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides
+
+tests/ml/CMakeFiles/mltest.dir/src/mltests.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/mltests.o
+
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o: tests/ml/CMakeFiles/mltest.dir/flags.make
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o: ../tests/ml/src/mltest_main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/mltest_main.o -c /home/sandy/Iris/OPENCV/tests/ml/src/mltest_main.cpp
+
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/mltest_main.i"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/mltest_main.cpp > CMakeFiles/mltest.dir/src/mltest_main.i
+
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/mltest_main.s"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/mltest_main.cpp -o CMakeFiles/mltest.dir/src/mltest_main.s
+
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires:
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires
+
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires
+	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides.build
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides
+
+tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o
+
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.o: tests/ml/CMakeFiles/mltest.dir/flags.make
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.o: ../tests/ml/src/slmltests.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/ml/CMakeFiles/mltest.dir/src/slmltests.o"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mltest.dir/src/slmltests.o -c /home/sandy/Iris/OPENCV/tests/ml/src/slmltests.cpp
+
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mltest.dir/src/slmltests.i"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/ml/src/slmltests.cpp > CMakeFiles/mltest.dir/src/slmltests.i
+
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mltest.dir/src/slmltests.s"
+	cd /home/sandy/Iris/OPENCV/release/tests/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/ml/src/slmltests.cpp -o CMakeFiles/mltest.dir/src/slmltests.s
+
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires:
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires
+
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires
+	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides.build
+.PHONY : tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides
+
+tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.provides.build: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o
+
 # Object files for target mltest
 mltest_OBJECTS = \
-"CMakeFiles/mltest.dir/src/mltests.o" \
-"CMakeFiles/mltest.dir/src/amltests.o" \
-"CMakeFiles/mltest.dir/src/slmltests.o" \
-"CMakeFiles/mltest.dir/src/mltest_main.o" \
 "CMakeFiles/mltest.dir/src/aemknearestkmeans.o" \
-"CMakeFiles/mltest.dir/src/precomp.o"
+"CMakeFiles/mltest.dir/src/precomp.o" \
+"CMakeFiles/mltest.dir/src/amltests.o" \
+"CMakeFiles/mltest.dir/src/mltests.o" \
+"CMakeFiles/mltest.dir/src/mltest_main.o" \
+"CMakeFiles/mltest.dir/src/slmltests.o"
 
 # External object files for target mltest
 mltest_EXTERNAL_OBJECTS =
 
-bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/mltests.o
-bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/amltests.o
-bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o
-bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o
 bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/aemknearestkmeans.o
 bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/precomp.o
+bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/amltests.o
+bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/mltests.o
+bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o
+bin/mltest: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o
 bin/mltest: tests/ml/CMakeFiles/mltest.dir/build.make
 bin/mltest: lib/libcxcore.so.2.1.0
 bin/mltest: lib/libml.so.2.1.0
@@ -224,12 +224,12 @@ bin/mltest: tests/ml/CMakeFiles/mltest.dir/link.txt
 tests/ml/CMakeFiles/mltest.dir/build: bin/mltest
 .PHONY : tests/ml/CMakeFiles/mltest.dir/build
 
-tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires
-tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires
-tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires
-tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires
 tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/aemknearestkmeans.o.requires
 tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/precomp.o.requires
+tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/amltests.o.requires
+tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/mltests.o.requires
+tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/mltest_main.o.requires
+tests/ml/CMakeFiles/mltest.dir/requires: tests/ml/CMakeFiles/mltest.dir/src/slmltests.o.requires
 .PHONY : tests/ml/CMakeFiles/mltest.dir/requires
 
 tests/ml/CMakeFiles/mltest.dir/clean:

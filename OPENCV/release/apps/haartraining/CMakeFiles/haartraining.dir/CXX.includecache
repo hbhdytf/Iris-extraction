@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/sandy/Iris/OPENCV/apps/haartraining/cvhaartraining.h
-
-/home/sandy/Iris/OPENCV/apps/haartraining/haartraining.cpp
-cstdio
--
-cstring
--
-cstdlib
--
-cvhaartraining.h
-/home/sandy/Iris/OPENCV/apps/haartraining/cvhaartraining.h
-

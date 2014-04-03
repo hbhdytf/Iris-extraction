@@ -7,6 +7,8 @@ LINKFLAGS=-s -L/opt/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -l
 
 ALLTARGETS=caht wahet gfcf lg hd hdverify qsw ko koc cb cbc cr dct dctc maskcmp iffp
 
+all: $(ALLTARGETS) 
+
 caht: caht.cpp
 	$(CXX) -o caht $(CXXFLAGS) caht.cpp $(LINKFLAGS)
 	
@@ -55,6 +57,5 @@ maskcmp: maskcmp.cpp
 iffp: iffp.cpp
 	$(CXX) -o iffp $(CXXFLAGS) iffp.cpp $(LINKFLAGS)
 
-all: ${ALLTARGETS}
 clean:
 	rm ${ALLTARGETS}

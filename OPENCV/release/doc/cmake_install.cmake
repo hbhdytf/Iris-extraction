@@ -34,16 +34,16 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/doc" TYPE FILE FILES
+    "/home/sandy/Iris/OPENCV/doc/index.htm"
     "/home/sandy/Iris/OPENCV/doc/ChangeLog.htm"
     "/home/sandy/Iris/OPENCV/doc/haartraining.htm"
-    "/home/sandy/Iris/OPENCV/doc/index.htm"
     "/home/sandy/Iris/OPENCV/doc/packaging.txt"
-    "/home/sandy/Iris/OPENCV/doc/license.txt"
     "/home/sandy/Iris/OPENCV/doc/README.txt"
+    "/home/sandy/Iris/OPENCV/doc/license.txt"
     "/home/sandy/Iris/OPENCV/doc/CMakeLists.txt"
     "/home/sandy/Iris/OPENCV/doc/opencv.jpg"
-    "/home/sandy/Iris/OPENCV/doc/opencv-logo.png"
     "/home/sandy/Iris/OPENCV/doc/opencv-logo2.png"
+    "/home/sandy/Iris/OPENCV/doc/opencv-logo.png"
     "/home/sandy/Iris/OPENCV/doc/opencv.pdf"
     "/home/sandy/Iris/OPENCV/doc/pattern.pdf"
     )
@@ -60,8 +60,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv/doc/vidsurv" TYPE FILE FILES
     "/home/sandy/Iris/OPENCV/doc/vidsurv/Blob_Tracking_Modules.doc"
-    "/home/sandy/Iris/OPENCV/doc/vidsurv/Blob_Tracking_Tests.doc"
     "/home/sandy/Iris/OPENCV/doc/vidsurv/TestSeq.doc"
+    "/home/sandy/Iris/OPENCV/doc/vidsurv/Blob_Tracking_Tests.doc"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
 

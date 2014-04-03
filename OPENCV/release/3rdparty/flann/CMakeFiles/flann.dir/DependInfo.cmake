@@ -17,8 +17,6 @@ SET(CMAKE_CXX_COMPILER_ID "GNU")
 SET(CMAKE_TARGET_DEFINITIONS
   "HAVE_CONFIG_H"
   "flann_EXPORTS"
-  "HAVE_CONFIG_H"
-  "flann_EXPORTS"
   )
 
 # Targets to which this target links.

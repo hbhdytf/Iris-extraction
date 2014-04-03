@@ -240,18 +240,6 @@ cascadeclassifier.h
 features.h
 /home/sandy/Iris/OPENCV/apps/traincascade/features.h
 
-/home/sandy/Iris/OPENCV/apps/traincascade/imagestorage.cpp
-cv.h
-/home/sandy/Iris/OPENCV/apps/traincascade/cv.h
-imagestorage.h
-/home/sandy/Iris/OPENCV/apps/traincascade/imagestorage.h
-stdio.h
--
-iostream
--
-fstream
--
-
 /home/sandy/Iris/OPENCV/apps/traincascade/imagestorage.h
 highgui.h
 -

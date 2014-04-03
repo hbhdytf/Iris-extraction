@@ -133,8 +133,8 @@ src/cxcore/preinstall:
 
 # All Build rule for target.
 src/cxcore/CMakeFiles/cxcore.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
-src/cxcore/CMakeFiles/cxcore.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 src/cxcore/CMakeFiles/cxcore.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+src/cxcore/CMakeFiles/cxcore.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 	$(MAKE) -f src/cxcore/CMakeFiles/cxcore.dir/build.make src/cxcore/CMakeFiles/cxcore.dir/depend
 	$(MAKE) -f src/cxcore/CMakeFiles/cxcore.dir/build.make src/cxcore/CMakeFiles/cxcore.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  36 37 38
@@ -184,6 +184,9 @@ src/cv/preinstall:
 # Target rules for target src/cv/CMakeFiles/cv.dir
 
 # All Build rule for target.
+src/cv/CMakeFiles/cv.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+src/cv/CMakeFiles/cv.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+src/cv/CMakeFiles/cv.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 src/cv/CMakeFiles/cv.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f src/cv/CMakeFiles/cv.dir/build.make src/cv/CMakeFiles/cv.dir/depend
 	$(MAKE) -f src/cv/CMakeFiles/cv.dir/build.make src/cv/CMakeFiles/cv.dir/build
@@ -234,10 +237,13 @@ src/cvaux/preinstall:
 # Target rules for target src/cvaux/CMakeFiles/cvaux.dir
 
 # All Build rule for target.
-src/cvaux/CMakeFiles/cvaux.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
-src/cvaux/CMakeFiles/cvaux.dir/all: src/ml/CMakeFiles/ml.dir/all
-src/cvaux/CMakeFiles/cvaux.dir/all: src/highgui/CMakeFiles/highgui.dir/all
 src/cvaux/CMakeFiles/cvaux.dir/all: src/cv/CMakeFiles/cv.dir/all
+src/cvaux/CMakeFiles/cvaux.dir/all: src/highgui/CMakeFiles/highgui.dir/all
+src/cvaux/CMakeFiles/cvaux.dir/all: src/ml/CMakeFiles/ml.dir/all
+src/cvaux/CMakeFiles/cvaux.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+src/cvaux/CMakeFiles/cvaux.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+src/cvaux/CMakeFiles/cvaux.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
+src/cvaux/CMakeFiles/cvaux.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f src/cvaux/CMakeFiles/cvaux.dir/build.make src/cvaux/CMakeFiles/cvaux.dir/depend
 	$(MAKE) -f src/cvaux/CMakeFiles/cvaux.dir/build.make src/cvaux/CMakeFiles/cvaux.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  11 12 13 14 15 16 17 18 19 20 21 22 23
@@ -287,6 +293,9 @@ src/ml/preinstall:
 # Target rules for target src/ml/CMakeFiles/ml.dir
 
 # All Build rule for target.
+src/ml/CMakeFiles/ml.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+src/ml/CMakeFiles/ml.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+src/ml/CMakeFiles/ml.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 src/ml/CMakeFiles/ml.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/depend
 	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/build
@@ -337,8 +346,11 @@ src/highgui/preinstall:
 # Target rules for target src/highgui/CMakeFiles/highgui.dir
 
 # All Build rule for target.
-src/highgui/CMakeFiles/highgui.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 src/highgui/CMakeFiles/highgui.dir/all: src/cv/CMakeFiles/cv.dir/all
+src/highgui/CMakeFiles/highgui.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+src/highgui/CMakeFiles/highgui.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+src/highgui/CMakeFiles/highgui.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
+src/highgui/CMakeFiles/highgui.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/depend
 	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  43 44 45
@@ -412,10 +424,13 @@ apps/haartraining/preinstall:
 # Target rules for target apps/haartraining/CMakeFiles/createsamples.dir
 
 # All Build rule for target.
+apps/haartraining/CMakeFiles/createsamples.dir/all: src/cv/CMakeFiles/cv.dir/all
+apps/haartraining/CMakeFiles/createsamples.dir/all: src/highgui/CMakeFiles/highgui.dir/all
+apps/haartraining/CMakeFiles/createsamples.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+apps/haartraining/CMakeFiles/createsamples.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+apps/haartraining/CMakeFiles/createsamples.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 apps/haartraining/CMakeFiles/createsamples.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 apps/haartraining/CMakeFiles/createsamples.dir/all: apps/haartraining/CMakeFiles/cvhaartraining.dir/all
-apps/haartraining/CMakeFiles/createsamples.dir/all: src/highgui/CMakeFiles/highgui.dir/all
-apps/haartraining/CMakeFiles/createsamples.dir/all: src/cv/CMakeFiles/cv.dir/all
 	$(MAKE) -f apps/haartraining/CMakeFiles/createsamples.dir/build.make apps/haartraining/CMakeFiles/createsamples.dir/depend
 	$(MAKE) -f apps/haartraining/CMakeFiles/createsamples.dir/build.make apps/haartraining/CMakeFiles/createsamples.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles 
@@ -450,9 +465,12 @@ clean: apps/haartraining/CMakeFiles/createsamples.dir/clean
 # Target rules for target apps/haartraining/CMakeFiles/cvhaartraining.dir
 
 # All Build rule for target.
-apps/haartraining/CMakeFiles/cvhaartraining.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
-apps/haartraining/CMakeFiles/cvhaartraining.dir/all: src/highgui/CMakeFiles/highgui.dir/all
 apps/haartraining/CMakeFiles/cvhaartraining.dir/all: src/cv/CMakeFiles/cv.dir/all
+apps/haartraining/CMakeFiles/cvhaartraining.dir/all: src/highgui/CMakeFiles/highgui.dir/all
+apps/haartraining/CMakeFiles/cvhaartraining.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+apps/haartraining/CMakeFiles/cvhaartraining.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+apps/haartraining/CMakeFiles/cvhaartraining.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
+apps/haartraining/CMakeFiles/cvhaartraining.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f apps/haartraining/CMakeFiles/cvhaartraining.dir/build.make apps/haartraining/CMakeFiles/cvhaartraining.dir/depend
 	$(MAKE) -f apps/haartraining/CMakeFiles/cvhaartraining.dir/build.make apps/haartraining/CMakeFiles/cvhaartraining.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  24
@@ -487,10 +505,13 @@ clean: apps/haartraining/CMakeFiles/cvhaartraining.dir/clean
 # Target rules for target apps/haartraining/CMakeFiles/haartraining.dir
 
 # All Build rule for target.
+apps/haartraining/CMakeFiles/haartraining.dir/all: src/cv/CMakeFiles/cv.dir/all
+apps/haartraining/CMakeFiles/haartraining.dir/all: src/highgui/CMakeFiles/highgui.dir/all
+apps/haartraining/CMakeFiles/haartraining.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+apps/haartraining/CMakeFiles/haartraining.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+apps/haartraining/CMakeFiles/haartraining.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 apps/haartraining/CMakeFiles/haartraining.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 apps/haartraining/CMakeFiles/haartraining.dir/all: apps/haartraining/CMakeFiles/cvhaartraining.dir/all
-apps/haartraining/CMakeFiles/haartraining.dir/all: src/highgui/CMakeFiles/highgui.dir/all
-apps/haartraining/CMakeFiles/haartraining.dir/all: src/cv/CMakeFiles/cv.dir/all
 	$(MAKE) -f apps/haartraining/CMakeFiles/haartraining.dir/build.make apps/haartraining/CMakeFiles/haartraining.dir/depend
 	$(MAKE) -f apps/haartraining/CMakeFiles/haartraining.dir/build.make apps/haartraining/CMakeFiles/haartraining.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles 
@@ -525,10 +546,13 @@ clean: apps/haartraining/CMakeFiles/haartraining.dir/clean
 # Target rules for target apps/haartraining/CMakeFiles/performance.dir
 
 # All Build rule for target.
+apps/haartraining/CMakeFiles/performance.dir/all: src/cv/CMakeFiles/cv.dir/all
+apps/haartraining/CMakeFiles/performance.dir/all: src/highgui/CMakeFiles/highgui.dir/all
+apps/haartraining/CMakeFiles/performance.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+apps/haartraining/CMakeFiles/performance.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+apps/haartraining/CMakeFiles/performance.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 apps/haartraining/CMakeFiles/performance.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 apps/haartraining/CMakeFiles/performance.dir/all: apps/haartraining/CMakeFiles/cvhaartraining.dir/all
-apps/haartraining/CMakeFiles/performance.dir/all: src/highgui/CMakeFiles/highgui.dir/all
-apps/haartraining/CMakeFiles/performance.dir/all: src/cv/CMakeFiles/cv.dir/all
 	$(MAKE) -f apps/haartraining/CMakeFiles/performance.dir/build.make apps/haartraining/CMakeFiles/performance.dir/depend
 	$(MAKE) -f apps/haartraining/CMakeFiles/performance.dir/build.make apps/haartraining/CMakeFiles/performance.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles 
@@ -578,11 +602,14 @@ apps/traincascade/preinstall:
 # Target rules for target apps/traincascade/CMakeFiles/traincascade.dir
 
 # All Build rule for target.
+apps/traincascade/CMakeFiles/traincascade.dir/all: src/cv/CMakeFiles/cv.dir/all
+apps/traincascade/CMakeFiles/traincascade.dir/all: src/highgui/CMakeFiles/highgui.dir/all
+apps/traincascade/CMakeFiles/traincascade.dir/all: src/ml/CMakeFiles/ml.dir/all
+apps/traincascade/CMakeFiles/traincascade.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+apps/traincascade/CMakeFiles/traincascade.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+apps/traincascade/CMakeFiles/traincascade.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 apps/traincascade/CMakeFiles/traincascade.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 apps/traincascade/CMakeFiles/traincascade.dir/all: apps/haartraining/CMakeFiles/cvhaartraining.dir/all
-apps/traincascade/CMakeFiles/traincascade.dir/all: src/ml/CMakeFiles/ml.dir/all
-apps/traincascade/CMakeFiles/traincascade.dir/all: src/highgui/CMakeFiles/highgui.dir/all
-apps/traincascade/CMakeFiles/traincascade.dir/all: src/cv/CMakeFiles/cv.dir/all
 	$(MAKE) -f apps/traincascade/CMakeFiles/traincascade.dir/build.make apps/traincascade/CMakeFiles/traincascade.dir/depend
 	$(MAKE) -f apps/traincascade/CMakeFiles/traincascade.dir/build.make apps/traincascade/CMakeFiles/traincascade.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  97
@@ -686,11 +713,15 @@ tests/cv/preinstall:
 # Target rules for target tests/cv/CMakeFiles/cvtest.dir
 
 # All Build rule for target.
-tests/cv/CMakeFiles/cvtest.dir/all: tests/cxts/CMakeFiles/cxts.dir/all
-tests/cv/CMakeFiles/cvtest.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: src/cv/CMakeFiles/cv.dir/all
 tests/cv/CMakeFiles/cvtest.dir/all: src/cvaux/CMakeFiles/cvaux.dir/all
 tests/cv/CMakeFiles/cvtest.dir/all: src/highgui/CMakeFiles/highgui.dir/all
-tests/cv/CMakeFiles/cvtest.dir/all: src/cv/CMakeFiles/cv.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: src/ml/CMakeFiles/ml.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: tests/cxts/CMakeFiles/cxts.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
+tests/cv/CMakeFiles/cvtest.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f tests/cv/CMakeFiles/cvtest.dir/build.make tests/cv/CMakeFiles/cvtest.dir/depend
 	$(MAKE) -f tests/cv/CMakeFiles/cvtest.dir/build.make tests/cv/CMakeFiles/cvtest.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  25 26 27 28 29 30 31 32 33 34 35
@@ -741,6 +772,9 @@ tests/cxcore/preinstall:
 
 # All Build rule for target.
 tests/cxcore/CMakeFiles/cxcoretest.dir/all: tests/cxts/CMakeFiles/cxts.dir/all
+tests/cxcore/CMakeFiles/cxcoretest.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+tests/cxcore/CMakeFiles/cxcoretest.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+tests/cxcore/CMakeFiles/cxcoretest.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 tests/cxcore/CMakeFiles/cxcoretest.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f tests/cxcore/CMakeFiles/cxcoretest.dir/build.make tests/cxcore/CMakeFiles/cxcoretest.dir/depend
 	$(MAKE) -f tests/cxcore/CMakeFiles/cxcoretest.dir/build.make tests/cxcore/CMakeFiles/cxcoretest.dir/build
@@ -791,9 +825,12 @@ tests/ml/preinstall:
 # Target rules for target tests/ml/CMakeFiles/mltest.dir
 
 # All Build rule for target.
-tests/ml/CMakeFiles/mltest.dir/all: tests/cxts/CMakeFiles/cxts.dir/all
-tests/ml/CMakeFiles/mltest.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 tests/ml/CMakeFiles/mltest.dir/all: src/ml/CMakeFiles/ml.dir/all
+tests/ml/CMakeFiles/mltest.dir/all: tests/cxts/CMakeFiles/cxts.dir/all
+tests/ml/CMakeFiles/mltest.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+tests/ml/CMakeFiles/mltest.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+tests/ml/CMakeFiles/mltest.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
+tests/ml/CMakeFiles/mltest.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/depend
 	$(MAKE) -f tests/ml/CMakeFiles/mltest.dir/build.make tests/ml/CMakeFiles/mltest.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles  49
@@ -843,6 +880,9 @@ tests/cxts/preinstall:
 # Target rules for target tests/cxts/CMakeFiles/cxts.dir
 
 # All Build rule for target.
+tests/cxts/CMakeFiles/cxts.dir/all: 3rdparty/flann/CMakeFiles/flann.dir/all
+tests/cxts/CMakeFiles/cxts.dir/all: 3rdparty/zlib/CMakeFiles/zlib.dir/all
+tests/cxts/CMakeFiles/cxts.dir/all: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/all
 tests/cxts/CMakeFiles/cxts.dir/all: src/cxcore/CMakeFiles/cxcore.dir/all
 	$(MAKE) -f tests/cxts/CMakeFiles/cxts.dir/build.make tests/cxts/CMakeFiles/cxts.dir/depend
 	$(MAKE) -f tests/cxts/CMakeFiles/cxts.dir/build.make tests/cxts/CMakeFiles/cxts.dir/build

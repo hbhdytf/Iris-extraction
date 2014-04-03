@@ -6,7 +6,7 @@ C_FLAGS =   -Wall -pthread -march=i686 -ffunction-sections  -fPIC -Wno-parenthes
 
 C_DEFINES = -DHAVE_CONFIG_H
 
-# Custom flags: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/dlamch.o_FLAGS = -ffloat-store -O0
-
 # Custom flags: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/slamch.o_FLAGS = -ffloat-store -O0
+
+# Custom flags: 3rdparty/lapack/CMakeFiles/opencv_lapack.dir/dlamch.o_FLAGS = -ffloat-store -O0
 

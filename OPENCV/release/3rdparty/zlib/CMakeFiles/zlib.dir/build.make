@@ -52,51 +52,51 @@ include 3rdparty/zlib/CMakeFiles/zlib.dir/progress.make
 # Include the compile flags for this target's objects.
 include 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o: ../3rdparty/zlib/crc32.c
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.o: ../3rdparty/zlib/infback.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/crc32.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/infback.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/infback.c
 
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/crc32.c > CMakeFiles/zlib.dir/crc32.i
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/infback.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/infback.c > CMakeFiles/zlib.dir/infback.i
 
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.s
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/infback.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/infback.c -o CMakeFiles/zlib.dir/infback.s
 
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires
 
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides
 
-3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o
+3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o: ../3rdparty/zlib/inflate.c
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.o: ../3rdparty/zlib/compress.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inflate.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/compress.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/compress.c
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/inflate.c > CMakeFiles/zlib.dir/inflate.i
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/compress.c > CMakeFiles/zlib.dir/compress.i
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.s
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/compress.c -o CMakeFiles/zlib.dir/compress.s
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o
+3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o
 
 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o: ../3rdparty/zlib/uncompr.c
@@ -121,55 +121,9 @@ include 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 
 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o
 
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.o: ../3rdparty/zlib/infback.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/infback.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/infback.c
-
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/infback.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/infback.c > CMakeFiles/zlib.dir/infback.i
-
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/infback.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/infback.c -o CMakeFiles/zlib.dir/infback.s
-
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires
-
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides
-
-3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o
-
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o: ../3rdparty/zlib/gzio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzio.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/gzio.c
-
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzio.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/gzio.c > CMakeFiles/zlib.dir/gzio.i
-
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzio.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/gzio.c -o CMakeFiles/zlib.dir/gzio.s
-
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires
-
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides
-
-3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o
-
 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o: ../3rdparty/zlib/trees.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o"
 	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/trees.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/trees.c
 
@@ -190,28 +144,74 @@ include 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 
 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o
 
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.o: ../3rdparty/zlib/compress.c
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o: ../3rdparty/zlib/inffast.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inffast.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/inffast.c
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/inffast.c > CMakeFiles/zlib.dir/inffast.i
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.s
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o
+
+3rdparty/zlib/CMakeFiles/zlib.dir/example.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/example.o: ../3rdparty/zlib/example.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/example.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/example.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/example.c
+
+3rdparty/zlib/CMakeFiles/zlib.dir/example.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/example.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/example.c > CMakeFiles/zlib.dir/example.i
+
+3rdparty/zlib/CMakeFiles/zlib.dir/example.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/example.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/example.c -o CMakeFiles/zlib.dir/example.s
+
+3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires
+
+3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides
+
+3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o
+
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o: ../3rdparty/zlib/gzio.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/compress.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzio.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/gzio.c
 
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/compress.c > CMakeFiles/zlib.dir/compress.i
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzio.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/gzio.c > CMakeFiles/zlib.dir/gzio.i
 
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/compress.c -o CMakeFiles/zlib.dir/compress.s
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzio.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/gzio.c -o CMakeFiles/zlib.dir/gzio.s
 
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires
 
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides
 
-3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o
+3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o
 
 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o: ../3rdparty/zlib/deflate.c
@@ -236,9 +236,55 @@ include 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 
 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o
 
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o: ../3rdparty/zlib/crc32.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/crc32.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/crc32.c
+
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/crc32.c > CMakeFiles/zlib.dir/crc32.i
+
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.s
+
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires
+
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides
+
+3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o: ../3rdparty/zlib/inflate.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inflate.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/inflate.c
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/inflate.c > CMakeFiles/zlib.dir/inflate.i
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.s
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides
+
+3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o
+
 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o: ../3rdparty/zlib/inftrees.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o"
 	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inftrees.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/inftrees.c
 
@@ -259,78 +305,9 @@ include 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 
 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o
 
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o: ../3rdparty/zlib/inffast.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inffast.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/inffast.c
-
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/inffast.c > CMakeFiles/zlib.dir/inffast.i
-
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.s
-
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires
-
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides
-
-3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o
-
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o: ../3rdparty/zlib/adler32.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/adler32.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/adler32.c
-
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/adler32.c > CMakeFiles/zlib.dir/adler32.i
-
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.s
-
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires
-
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides
-
-3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o
-
-3rdparty/zlib/CMakeFiles/zlib.dir/example.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
-3rdparty/zlib/CMakeFiles/zlib.dir/example.o: ../3rdparty/zlib/example.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/example.o"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/example.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/example.c
-
-3rdparty/zlib/CMakeFiles/zlib.dir/example.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/example.i"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/example.c > CMakeFiles/zlib.dir/example.i
-
-3rdparty/zlib/CMakeFiles/zlib.dir/example.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/example.s"
-	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/example.c -o CMakeFiles/zlib.dir/example.s
-
-3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires:
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires
-
-3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires
-	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides.build
-.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides
-
-3rdparty/zlib/CMakeFiles/zlib.dir/example.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o
-
 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o: ../3rdparty/zlib/zutil.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o"
 	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/zutil.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/zutil.c
 
@@ -351,38 +328,61 @@ include 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
 
 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o
 
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o: 3rdparty/zlib/CMakeFiles/zlib.dir/flags.make
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o: ../3rdparty/zlib/adler32.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/adler32.o   -c /home/sandy/Iris/OPENCV/3rdparty/zlib/adler32.c
+
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.i"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/sandy/Iris/OPENCV/3rdparty/zlib/adler32.c > CMakeFiles/zlib.dir/adler32.i
+
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.s"
+	cd /home/sandy/Iris/OPENCV/release/3rdparty/zlib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/sandy/Iris/OPENCV/3rdparty/zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.s
+
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires:
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires
+
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires
+	$(MAKE) -f 3rdparty/zlib/CMakeFiles/zlib.dir/build.make 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides.build
+.PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides
+
+3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.provides.build: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o
+
 # Object files for target zlib
 zlib_OBJECTS = \
+"CMakeFiles/zlib.dir/infback.o" \
+"CMakeFiles/zlib.dir/compress.o" \
+"CMakeFiles/zlib.dir/uncompr.o" \
+"CMakeFiles/zlib.dir/trees.o" \
+"CMakeFiles/zlib.dir/inffast.o" \
+"CMakeFiles/zlib.dir/example.o" \
+"CMakeFiles/zlib.dir/gzio.o" \
+"CMakeFiles/zlib.dir/deflate.o" \
 "CMakeFiles/zlib.dir/crc32.o" \
 "CMakeFiles/zlib.dir/inflate.o" \
-"CMakeFiles/zlib.dir/uncompr.o" \
-"CMakeFiles/zlib.dir/infback.o" \
-"CMakeFiles/zlib.dir/gzio.o" \
-"CMakeFiles/zlib.dir/trees.o" \
-"CMakeFiles/zlib.dir/compress.o" \
-"CMakeFiles/zlib.dir/deflate.o" \
 "CMakeFiles/zlib.dir/inftrees.o" \
-"CMakeFiles/zlib.dir/inffast.o" \
-"CMakeFiles/zlib.dir/adler32.o" \
-"CMakeFiles/zlib.dir/example.o" \
-"CMakeFiles/zlib.dir/zutil.o"
+"CMakeFiles/zlib.dir/zutil.o" \
+"CMakeFiles/zlib.dir/adler32.o"
 
 # External object files for target zlib
 zlib_EXTERNAL_OBJECTS =
 
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o
 3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o
 3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o
 3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o
-3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o
 3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o
+3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o
 3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/build.make
 3rdparty/lib/libzlib.a: 3rdparty/zlib/CMakeFiles/zlib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library ../lib/libzlib.a"
@@ -393,19 +393,19 @@ zlib_EXTERNAL_OBJECTS =
 3rdparty/zlib/CMakeFiles/zlib.dir/build: 3rdparty/lib/libzlib.a
 .PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/build
 
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o.requires
 3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.o.requires
 3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/infback.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/gzio.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/trees.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/compress.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.o.requires
 3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires
-3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/example.o.requires
 3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.o.requires
+3rdparty/zlib/CMakeFiles/zlib.dir/requires: 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.o.requires
 .PHONY : 3rdparty/zlib/CMakeFiles/zlib.dir/requires
 
 3rdparty/zlib/CMakeFiles/zlib.dir/clean:

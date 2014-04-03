@@ -1,2 +1,2 @@
-/usr/bin/ar cr ../lib/libflann.a  CMakeFiles/flann.dir/flann.o CMakeFiles/flann.dir/nn/index_testing.o CMakeFiles/flann.dir/util/logger.o CMakeFiles/flann.dir/util/random.o CMakeFiles/flann.dir/util/saving.o CMakeFiles/flann.dir/algorithms/dist.o
+/usr/bin/ar cr ../lib/libflann.a  CMakeFiles/flann.dir/util/random.o CMakeFiles/flann.dir/util/logger.o CMakeFiles/flann.dir/util/saving.o CMakeFiles/flann.dir/algorithms/dist.o CMakeFiles/flann.dir/nn/index_testing.o CMakeFiles/flann.dir/flann.o
 /usr/bin/ranlib ../lib/libflann.a

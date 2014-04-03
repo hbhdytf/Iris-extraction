@@ -6,7 +6,6 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
   "HAVE_CONFIG_H"
-  "HAVE_CONFIG_H"
   )
 
 # Targets to which this target links.

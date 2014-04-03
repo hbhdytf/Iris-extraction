@@ -52,9 +52,78 @@ include src/ml/CMakeFiles/ml.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/ml/CMakeFiles/ml.dir/flags.make
 
+src/ml/CMakeFiles/ml.dir/mlnbayes.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlnbayes.o: ../src/ml/mlnbayes.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlnbayes.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlnbayes.o -c /home/sandy/Iris/OPENCV/src/ml/mlnbayes.cpp
+
+src/ml/CMakeFiles/ml.dir/mlnbayes.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlnbayes.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlnbayes.cpp > CMakeFiles/ml.dir/mlnbayes.i
+
+src/ml/CMakeFiles/ml.dir/mlnbayes.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlnbayes.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlnbayes.cpp -o CMakeFiles/ml.dir/mlnbayes.s
+
+src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires
+
+src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides: src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides
+
+src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides.build: src/ml/CMakeFiles/ml.dir/mlnbayes.o
+
+src/ml/CMakeFiles/ml.dir/mlrtrees.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlrtrees.o: ../src/ml/mlrtrees.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlrtrees.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlrtrees.o -c /home/sandy/Iris/OPENCV/src/ml/mlrtrees.cpp
+
+src/ml/CMakeFiles/ml.dir/mlrtrees.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlrtrees.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlrtrees.cpp > CMakeFiles/ml.dir/mlrtrees.i
+
+src/ml/CMakeFiles/ml.dir/mlrtrees.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlrtrees.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlrtrees.cpp -o CMakeFiles/ml.dir/mlrtrees.s
+
+src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires
+
+src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides: src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides
+
+src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides.build: src/ml/CMakeFiles/ml.dir/mlrtrees.o
+
+src/ml/CMakeFiles/ml.dir/mlknearest.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlknearest.o: ../src/ml/mlknearest.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlknearest.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlknearest.o -c /home/sandy/Iris/OPENCV/src/ml/mlknearest.cpp
+
+src/ml/CMakeFiles/ml.dir/mlknearest.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlknearest.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlknearest.cpp > CMakeFiles/ml.dir/mlknearest.i
+
+src/ml/CMakeFiles/ml.dir/mlknearest.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlknearest.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlknearest.cpp -o CMakeFiles/ml.dir/mlknearest.s
+
+src/ml/CMakeFiles/ml.dir/mlknearest.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlknearest.o.requires
+
+src/ml/CMakeFiles/ml.dir/mlknearest.o.provides: src/ml/CMakeFiles/ml.dir/mlknearest.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlknearest.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlknearest.o.provides
+
+src/ml/CMakeFiles/ml.dir/mlknearest.o.provides.build: src/ml/CMakeFiles/ml.dir/mlknearest.o
+
 src/ml/CMakeFiles/ml.dir/mlsvm.o: src/ml/CMakeFiles/ml.dir/flags.make
 src/ml/CMakeFiles/ml.dir/mlsvm.o: ../src/ml/mlsvm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlsvm.o"
 	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlsvm.o -c /home/sandy/Iris/OPENCV/src/ml/mlsvm.cpp
 
@@ -75,97 +144,28 @@ src/ml/CMakeFiles/ml.dir/mlsvm.o.provides: src/ml/CMakeFiles/ml.dir/mlsvm.o.requ
 
 src/ml/CMakeFiles/ml.dir/mlsvm.o.provides.build: src/ml/CMakeFiles/ml.dir/mlsvm.o
 
-src/ml/CMakeFiles/ml.dir/mldata.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mldata.o: ../src/ml/mldata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mldata.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mldata.o -c /home/sandy/Iris/OPENCV/src/ml/mldata.cpp
-
-src/ml/CMakeFiles/ml.dir/mldata.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mldata.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mldata.cpp > CMakeFiles/ml.dir/mldata.i
-
-src/ml/CMakeFiles/ml.dir/mldata.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mldata.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mldata.cpp -o CMakeFiles/ml.dir/mldata.s
-
-src/ml/CMakeFiles/ml.dir/mldata.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mldata.o.requires
-
-src/ml/CMakeFiles/ml.dir/mldata.o.provides: src/ml/CMakeFiles/ml.dir/mldata.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mldata.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mldata.o.provides
-
-src/ml/CMakeFiles/ml.dir/mldata.o.provides.build: src/ml/CMakeFiles/ml.dir/mldata.o
-
-src/ml/CMakeFiles/ml.dir/mlboost.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlboost.o: ../src/ml/mlboost.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlboost.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlboost.o -c /home/sandy/Iris/OPENCV/src/ml/mlboost.cpp
-
-src/ml/CMakeFiles/ml.dir/mlboost.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlboost.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlboost.cpp > CMakeFiles/ml.dir/mlboost.i
-
-src/ml/CMakeFiles/ml.dir/mlboost.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlboost.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlboost.cpp -o CMakeFiles/ml.dir/mlboost.s
-
-src/ml/CMakeFiles/ml.dir/mlboost.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlboost.o.requires
-
-src/ml/CMakeFiles/ml.dir/mlboost.o.provides: src/ml/CMakeFiles/ml.dir/mlboost.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlboost.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlboost.o.provides
-
-src/ml/CMakeFiles/ml.dir/mlboost.o.provides.build: src/ml/CMakeFiles/ml.dir/mlboost.o
-
-src/ml/CMakeFiles/ml.dir/mlann_mlp.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlann_mlp.o: ../src/ml/mlann_mlp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlann_mlp.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlann_mlp.o -c /home/sandy/Iris/OPENCV/src/ml/mlann_mlp.cpp
-
-src/ml/CMakeFiles/ml.dir/mlann_mlp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlann_mlp.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlann_mlp.cpp > CMakeFiles/ml.dir/mlann_mlp.i
-
-src/ml/CMakeFiles/ml.dir/mlann_mlp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlann_mlp.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlann_mlp.cpp -o CMakeFiles/ml.dir/mlann_mlp.s
-
-src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires
-
-src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides: src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides
-
-src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides.build: src/ml/CMakeFiles/ml.dir/mlann_mlp.o
-
-src/ml/CMakeFiles/ml.dir/mlrtrees.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlrtrees.o: ../src/ml/mlrtrees.cpp
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.o: ../src/ml/ml_inner_functions.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlrtrees.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlrtrees.o -c /home/sandy/Iris/OPENCV/src/ml/mlrtrees.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/ml_inner_functions.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/ml_inner_functions.o -c /home/sandy/Iris/OPENCV/src/ml/ml_inner_functions.cpp
 
-src/ml/CMakeFiles/ml.dir/mlrtrees.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlrtrees.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlrtrees.cpp > CMakeFiles/ml.dir/mlrtrees.i
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/ml_inner_functions.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/ml_inner_functions.cpp > CMakeFiles/ml.dir/ml_inner_functions.i
 
-src/ml/CMakeFiles/ml.dir/mlrtrees.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlrtrees.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlrtrees.cpp -o CMakeFiles/ml.dir/mlrtrees.s
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/ml_inner_functions.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/ml_inner_functions.cpp -o CMakeFiles/ml.dir/ml_inner_functions.s
 
-src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires
 
-src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides: src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides
 
-src/ml/CMakeFiles/ml.dir/mlrtrees.o.provides.build: src/ml/CMakeFiles/ml.dir/mlrtrees.o
+src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides.build: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o
 
 src/ml/CMakeFiles/ml.dir/ml.o: src/ml/CMakeFiles/ml.dir/flags.make
 src/ml/CMakeFiles/ml.dir/ml.o: ../src/ml/ml.cpp
@@ -190,32 +190,9 @@ src/ml/CMakeFiles/ml.dir/ml.o.provides: src/ml/CMakeFiles/ml.dir/ml.o.requires
 
 src/ml/CMakeFiles/ml.dir/ml.o.provides.build: src/ml/CMakeFiles/ml.dir/ml.o
 
-src/ml/CMakeFiles/ml.dir/mlknearest.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlknearest.o: ../src/ml/mlknearest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlknearest.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlknearest.o -c /home/sandy/Iris/OPENCV/src/ml/mlknearest.cpp
-
-src/ml/CMakeFiles/ml.dir/mlknearest.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlknearest.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlknearest.cpp > CMakeFiles/ml.dir/mlknearest.i
-
-src/ml/CMakeFiles/ml.dir/mlknearest.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlknearest.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlknearest.cpp -o CMakeFiles/ml.dir/mlknearest.s
-
-src/ml/CMakeFiles/ml.dir/mlknearest.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlknearest.o.requires
-
-src/ml/CMakeFiles/ml.dir/mlknearest.o.provides: src/ml/CMakeFiles/ml.dir/mlknearest.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlknearest.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlknearest.o.provides
-
-src/ml/CMakeFiles/ml.dir/mlknearest.o.provides.build: src/ml/CMakeFiles/ml.dir/mlknearest.o
-
 src/ml/CMakeFiles/ml.dir/mltestset.o: src/ml/CMakeFiles/ml.dir/flags.make
 src/ml/CMakeFiles/ml.dir/mltestset.o: ../src/ml/mltestset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mltestset.o"
 	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mltestset.o -c /home/sandy/Iris/OPENCV/src/ml/mltestset.cpp
 
@@ -236,32 +213,9 @@ src/ml/CMakeFiles/ml.dir/mltestset.o.provides: src/ml/CMakeFiles/ml.dir/mltestse
 
 src/ml/CMakeFiles/ml.dir/mltestset.o.provides.build: src/ml/CMakeFiles/ml.dir/mltestset.o
 
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.o: ../src/ml/ml_inner_functions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/ml_inner_functions.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/ml_inner_functions.o -c /home/sandy/Iris/OPENCV/src/ml/ml_inner_functions.cpp
-
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/ml_inner_functions.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/ml_inner_functions.cpp > CMakeFiles/ml.dir/ml_inner_functions.i
-
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/ml_inner_functions.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/ml_inner_functions.cpp -o CMakeFiles/ml.dir/ml_inner_functions.s
-
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires
-
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides
-
-src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.provides.build: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o
-
 src/ml/CMakeFiles/ml.dir/mlem.o: src/ml/CMakeFiles/ml.dir/flags.make
 src/ml/CMakeFiles/ml.dir/mlem.o: ../src/ml/mlem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlem.o"
 	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlem.o -c /home/sandy/Iris/OPENCV/src/ml/mlem.cpp
 
@@ -282,28 +236,74 @@ src/ml/CMakeFiles/ml.dir/mlem.o.provides: src/ml/CMakeFiles/ml.dir/mlem.o.requir
 
 src/ml/CMakeFiles/ml.dir/mlem.o.provides.build: src/ml/CMakeFiles/ml.dir/mlem.o
 
-src/ml/CMakeFiles/ml.dir/mlcnn.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlcnn.o: ../src/ml/mlcnn.cpp
+src/ml/CMakeFiles/ml.dir/mlertrees.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlertrees.o: ../src/ml/mlertrees.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlertrees.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlertrees.o -c /home/sandy/Iris/OPENCV/src/ml/mlertrees.cpp
+
+src/ml/CMakeFiles/ml.dir/mlertrees.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlertrees.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlertrees.cpp > CMakeFiles/ml.dir/mlertrees.i
+
+src/ml/CMakeFiles/ml.dir/mlertrees.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlertrees.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlertrees.cpp -o CMakeFiles/ml.dir/mlertrees.s
+
+src/ml/CMakeFiles/ml.dir/mlertrees.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlertrees.o.requires
+
+src/ml/CMakeFiles/ml.dir/mlertrees.o.provides: src/ml/CMakeFiles/ml.dir/mlertrees.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlertrees.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlertrees.o.provides
+
+src/ml/CMakeFiles/ml.dir/mlertrees.o.provides.build: src/ml/CMakeFiles/ml.dir/mlertrees.o
+
+src/ml/CMakeFiles/ml.dir/mlboost.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlboost.o: ../src/ml/mlboost.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlboost.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlboost.o -c /home/sandy/Iris/OPENCV/src/ml/mlboost.cpp
+
+src/ml/CMakeFiles/ml.dir/mlboost.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlboost.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlboost.cpp > CMakeFiles/ml.dir/mlboost.i
+
+src/ml/CMakeFiles/ml.dir/mlboost.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlboost.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlboost.cpp -o CMakeFiles/ml.dir/mlboost.s
+
+src/ml/CMakeFiles/ml.dir/mlboost.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlboost.o.requires
+
+src/ml/CMakeFiles/ml.dir/mlboost.o.provides: src/ml/CMakeFiles/ml.dir/mlboost.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlboost.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlboost.o.provides
+
+src/ml/CMakeFiles/ml.dir/mlboost.o.provides.build: src/ml/CMakeFiles/ml.dir/mlboost.o
+
+src/ml/CMakeFiles/ml.dir/mlann_mlp.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlann_mlp.o: ../src/ml/mlann_mlp.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlcnn.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlcnn.o -c /home/sandy/Iris/OPENCV/src/ml/mlcnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlann_mlp.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlann_mlp.o -c /home/sandy/Iris/OPENCV/src/ml/mlann_mlp.cpp
 
-src/ml/CMakeFiles/ml.dir/mlcnn.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlcnn.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlcnn.cpp > CMakeFiles/ml.dir/mlcnn.i
+src/ml/CMakeFiles/ml.dir/mlann_mlp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlann_mlp.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlann_mlp.cpp > CMakeFiles/ml.dir/mlann_mlp.i
 
-src/ml/CMakeFiles/ml.dir/mlcnn.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlcnn.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlcnn.cpp -o CMakeFiles/ml.dir/mlcnn.s
+src/ml/CMakeFiles/ml.dir/mlann_mlp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlann_mlp.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlann_mlp.cpp -o CMakeFiles/ml.dir/mlann_mlp.s
 
-src/ml/CMakeFiles/ml.dir/mlcnn.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlcnn.o.requires
+src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires
 
-src/ml/CMakeFiles/ml.dir/mlcnn.o.provides: src/ml/CMakeFiles/ml.dir/mlcnn.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlcnn.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlcnn.o.provides
+src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides: src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides
 
-src/ml/CMakeFiles/ml.dir/mlcnn.o.provides.build: src/ml/CMakeFiles/ml.dir/mlcnn.o
+src/ml/CMakeFiles/ml.dir/mlann_mlp.o.provides.build: src/ml/CMakeFiles/ml.dir/mlann_mlp.o
 
 src/ml/CMakeFiles/ml.dir/mlestimate.o: src/ml/CMakeFiles/ml.dir/flags.make
 src/ml/CMakeFiles/ml.dir/mlestimate.o: ../src/ml/mlestimate.cpp
@@ -328,9 +328,55 @@ src/ml/CMakeFiles/ml.dir/mlestimate.o.provides: src/ml/CMakeFiles/ml.dir/mlestim
 
 src/ml/CMakeFiles/ml.dir/mlestimate.o.provides.build: src/ml/CMakeFiles/ml.dir/mlestimate.o
 
+src/ml/CMakeFiles/ml.dir/mldata.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mldata.o: ../src/ml/mldata.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mldata.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mldata.o -c /home/sandy/Iris/OPENCV/src/ml/mldata.cpp
+
+src/ml/CMakeFiles/ml.dir/mldata.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mldata.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mldata.cpp > CMakeFiles/ml.dir/mldata.i
+
+src/ml/CMakeFiles/ml.dir/mldata.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mldata.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mldata.cpp -o CMakeFiles/ml.dir/mldata.s
+
+src/ml/CMakeFiles/ml.dir/mldata.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mldata.o.requires
+
+src/ml/CMakeFiles/ml.dir/mldata.o.provides: src/ml/CMakeFiles/ml.dir/mldata.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mldata.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mldata.o.provides
+
+src/ml/CMakeFiles/ml.dir/mldata.o.provides.build: src/ml/CMakeFiles/ml.dir/mldata.o
+
+src/ml/CMakeFiles/ml.dir/mlcnn.o: src/ml/CMakeFiles/ml.dir/flags.make
+src/ml/CMakeFiles/ml.dir/mlcnn.o: ../src/ml/mlcnn.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlcnn.o"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlcnn.o -c /home/sandy/Iris/OPENCV/src/ml/mlcnn.cpp
+
+src/ml/CMakeFiles/ml.dir/mlcnn.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlcnn.i"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlcnn.cpp > CMakeFiles/ml.dir/mlcnn.i
+
+src/ml/CMakeFiles/ml.dir/mlcnn.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlcnn.s"
+	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlcnn.cpp -o CMakeFiles/ml.dir/mlcnn.s
+
+src/ml/CMakeFiles/ml.dir/mlcnn.o.requires:
+.PHONY : src/ml/CMakeFiles/ml.dir/mlcnn.o.requires
+
+src/ml/CMakeFiles/ml.dir/mlcnn.o.provides: src/ml/CMakeFiles/ml.dir/mlcnn.o.requires
+	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlcnn.o.provides.build
+.PHONY : src/ml/CMakeFiles/ml.dir/mlcnn.o.provides
+
+src/ml/CMakeFiles/ml.dir/mlcnn.o.provides.build: src/ml/CMakeFiles/ml.dir/mlcnn.o
+
 src/ml/CMakeFiles/ml.dir/mltree.o: src/ml/CMakeFiles/ml.dir/flags.make
 src/ml/CMakeFiles/ml.dir/mltree.o: ../src/ml/mltree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mltree.o"
 	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mltree.o -c /home/sandy/Iris/OPENCV/src/ml/mltree.cpp
 
@@ -351,88 +397,42 @@ src/ml/CMakeFiles/ml.dir/mltree.o.provides: src/ml/CMakeFiles/ml.dir/mltree.o.re
 
 src/ml/CMakeFiles/ml.dir/mltree.o.provides.build: src/ml/CMakeFiles/ml.dir/mltree.o
 
-src/ml/CMakeFiles/ml.dir/mlertrees.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlertrees.o: ../src/ml/mlertrees.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlertrees.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlertrees.o -c /home/sandy/Iris/OPENCV/src/ml/mlertrees.cpp
-
-src/ml/CMakeFiles/ml.dir/mlertrees.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlertrees.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlertrees.cpp > CMakeFiles/ml.dir/mlertrees.i
-
-src/ml/CMakeFiles/ml.dir/mlertrees.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlertrees.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlertrees.cpp -o CMakeFiles/ml.dir/mlertrees.s
-
-src/ml/CMakeFiles/ml.dir/mlertrees.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlertrees.o.requires
-
-src/ml/CMakeFiles/ml.dir/mlertrees.o.provides: src/ml/CMakeFiles/ml.dir/mlertrees.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlertrees.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlertrees.o.provides
-
-src/ml/CMakeFiles/ml.dir/mlertrees.o.provides.build: src/ml/CMakeFiles/ml.dir/mlertrees.o
-
-src/ml/CMakeFiles/ml.dir/mlnbayes.o: src/ml/CMakeFiles/ml.dir/flags.make
-src/ml/CMakeFiles/ml.dir/mlnbayes.o: ../src/ml/mlnbayes.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/ml/CMakeFiles/ml.dir/mlnbayes.o"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ml.dir/mlnbayes.o -c /home/sandy/Iris/OPENCV/src/ml/mlnbayes.cpp
-
-src/ml/CMakeFiles/ml.dir/mlnbayes.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ml.dir/mlnbayes.i"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/ml/mlnbayes.cpp > CMakeFiles/ml.dir/mlnbayes.i
-
-src/ml/CMakeFiles/ml.dir/mlnbayes.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ml.dir/mlnbayes.s"
-	cd /home/sandy/Iris/OPENCV/release/src/ml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/ml/mlnbayes.cpp -o CMakeFiles/ml.dir/mlnbayes.s
-
-src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires:
-.PHONY : src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires
-
-src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides: src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires
-	$(MAKE) -f src/ml/CMakeFiles/ml.dir/build.make src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides.build
-.PHONY : src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides
-
-src/ml/CMakeFiles/ml.dir/mlnbayes.o.provides.build: src/ml/CMakeFiles/ml.dir/mlnbayes.o
-
 # Object files for target ml
 ml_OBJECTS = \
+"CMakeFiles/ml.dir/mlnbayes.o" \
+"CMakeFiles/ml.dir/mlrtrees.o" \
+"CMakeFiles/ml.dir/mlknearest.o" \
 "CMakeFiles/ml.dir/mlsvm.o" \
-"CMakeFiles/ml.dir/mldata.o" \
+"CMakeFiles/ml.dir/ml_inner_functions.o" \
+"CMakeFiles/ml.dir/ml.o" \
+"CMakeFiles/ml.dir/mltestset.o" \
+"CMakeFiles/ml.dir/mlem.o" \
+"CMakeFiles/ml.dir/mlertrees.o" \
 "CMakeFiles/ml.dir/mlboost.o" \
 "CMakeFiles/ml.dir/mlann_mlp.o" \
-"CMakeFiles/ml.dir/mlrtrees.o" \
-"CMakeFiles/ml.dir/ml.o" \
-"CMakeFiles/ml.dir/mlknearest.o" \
-"CMakeFiles/ml.dir/mltestset.o" \
-"CMakeFiles/ml.dir/ml_inner_functions.o" \
-"CMakeFiles/ml.dir/mlem.o" \
-"CMakeFiles/ml.dir/mlcnn.o" \
 "CMakeFiles/ml.dir/mlestimate.o" \
-"CMakeFiles/ml.dir/mltree.o" \
-"CMakeFiles/ml.dir/mlertrees.o" \
-"CMakeFiles/ml.dir/mlnbayes.o"
+"CMakeFiles/ml.dir/mldata.o" \
+"CMakeFiles/ml.dir/mlcnn.o" \
+"CMakeFiles/ml.dir/mltree.o"
 
 # External object files for target ml
 ml_EXTERNAL_OBJECTS =
 
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlnbayes.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlrtrees.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlknearest.o
 lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlsvm.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mldata.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/ml.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mltestset.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlem.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlertrees.o
 lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlboost.o
 lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlann_mlp.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlrtrees.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/ml.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlknearest.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mltestset.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlem.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlcnn.o
 lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlestimate.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mldata.o
+lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlcnn.o
 lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mltree.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlertrees.o
-lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/mlnbayes.o
 lib/libml.so.2.1.0: src/ml/CMakeFiles/ml.dir/build.make
 lib/libml.so.2.1.0: lib/libcxcore.so.2.1.0
 lib/libml.so.2.1.0: 3rdparty/lib/libopencv_lapack.a
@@ -451,21 +451,21 @@ lib/libml.so: lib/libml.so.2.1.0
 src/ml/CMakeFiles/ml.dir/build: lib/libml.so
 .PHONY : src/ml/CMakeFiles/ml.dir/build
 
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlknearest.o.requires
 src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlsvm.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mldata.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/ml.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mltestset.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlem.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlertrees.o.requires
 src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlboost.o.requires
 src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlann_mlp.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlrtrees.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/ml.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlknearest.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mltestset.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/ml_inner_functions.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlem.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlcnn.o.requires
 src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlestimate.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mldata.o.requires
+src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlcnn.o.requires
 src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mltree.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlertrees.o.requires
-src/ml/CMakeFiles/ml.dir/requires: src/ml/CMakeFiles/ml.dir/mlnbayes.o.requires
 .PHONY : src/ml/CMakeFiles/ml.dir/requires
 
 src/ml/CMakeFiles/ml.dir/clean:

@@ -6,17 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/sandy/Iris/OPENCV/apps/haartraining/createsamples.cpp
-cstdio
--
-cstring
--
-cstdlib
--
-cmath
--
-cvhaartraining.h
-/home/sandy/Iris/OPENCV/apps/haartraining/cvhaartraining.h
-
-/home/sandy/Iris/OPENCV/apps/haartraining/cvhaartraining.h
-

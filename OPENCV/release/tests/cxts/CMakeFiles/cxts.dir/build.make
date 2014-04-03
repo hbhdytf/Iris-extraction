@@ -52,32 +52,9 @@ include tests/cxts/CMakeFiles/cxts.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/cxts/CMakeFiles/cxts.dir/flags.make
 
-tests/cxts/CMakeFiles/cxts.dir/cxts.o: tests/cxts/CMakeFiles/cxts.dir/flags.make
-tests/cxts/CMakeFiles/cxts.dir/cxts.o: ../tests/cxts/cxts.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/cxts/CMakeFiles/cxts.dir/cxts.o"
-	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cxts.dir/cxts.o -c /home/sandy/Iris/OPENCV/tests/cxts/cxts.cpp
-
-tests/cxts/CMakeFiles/cxts.dir/cxts.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cxts.dir/cxts.i"
-	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/cxts/cxts.cpp > CMakeFiles/cxts.dir/cxts.i
-
-tests/cxts/CMakeFiles/cxts.dir/cxts.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cxts.dir/cxts.s"
-	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/cxts/cxts.cpp -o CMakeFiles/cxts.dir/cxts.s
-
-tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires:
-.PHONY : tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires
-
-tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides: tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires
-	$(MAKE) -f tests/cxts/CMakeFiles/cxts.dir/build.make tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides.build
-.PHONY : tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides
-
-tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides.build: tests/cxts/CMakeFiles/cxts.dir/cxts.o
-
 tests/cxts/CMakeFiles/cxts.dir/cxts_math.o: tests/cxts/CMakeFiles/cxts.dir/flags.make
 tests/cxts/CMakeFiles/cxts.dir/cxts_math.o: ../tests/cxts/cxts_math.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/cxts/CMakeFiles/cxts.dir/cxts_math.o"
 	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cxts.dir/cxts_math.o -c /home/sandy/Iris/OPENCV/tests/cxts/cxts_math.cpp
 
@@ -100,7 +77,7 @@ tests/cxts/CMakeFiles/cxts.dir/cxts_math.o.provides.build: tests/cxts/CMakeFiles
 
 tests/cxts/CMakeFiles/cxts.dir/cxts_arrtest.o: tests/cxts/CMakeFiles/cxts.dir/flags.make
 tests/cxts/CMakeFiles/cxts.dir/cxts_arrtest.o: ../tests/cxts/cxts_arrtest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/cxts/CMakeFiles/cxts.dir/cxts_arrtest.o"
 	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cxts.dir/cxts_arrtest.o -c /home/sandy/Iris/OPENCV/tests/cxts/cxts_arrtest.cpp
 
@@ -123,7 +100,7 @@ tests/cxts/CMakeFiles/cxts.dir/cxts_arrtest.o.provides.build: tests/cxts/CMakeFi
 
 tests/cxts/CMakeFiles/cxts.dir/precomp.o: tests/cxts/CMakeFiles/cxts.dir/flags.make
 tests/cxts/CMakeFiles/cxts.dir/precomp.o: ../tests/cxts/precomp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/cxts/CMakeFiles/cxts.dir/precomp.o"
 	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cxts.dir/precomp.o -c /home/sandy/Iris/OPENCV/tests/cxts/precomp.cpp
 
@@ -144,20 +121,43 @@ tests/cxts/CMakeFiles/cxts.dir/precomp.o.provides: tests/cxts/CMakeFiles/cxts.di
 
 tests/cxts/CMakeFiles/cxts.dir/precomp.o.provides.build: tests/cxts/CMakeFiles/cxts.dir/precomp.o
 
+tests/cxts/CMakeFiles/cxts.dir/cxts.o: tests/cxts/CMakeFiles/cxts.dir/flags.make
+tests/cxts/CMakeFiles/cxts.dir/cxts.o: ../tests/cxts/cxts.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object tests/cxts/CMakeFiles/cxts.dir/cxts.o"
+	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cxts.dir/cxts.o -c /home/sandy/Iris/OPENCV/tests/cxts/cxts.cpp
+
+tests/cxts/CMakeFiles/cxts.dir/cxts.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cxts.dir/cxts.i"
+	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/tests/cxts/cxts.cpp > CMakeFiles/cxts.dir/cxts.i
+
+tests/cxts/CMakeFiles/cxts.dir/cxts.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cxts.dir/cxts.s"
+	cd /home/sandy/Iris/OPENCV/release/tests/cxts && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/tests/cxts/cxts.cpp -o CMakeFiles/cxts.dir/cxts.s
+
+tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires:
+.PHONY : tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires
+
+tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides: tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires
+	$(MAKE) -f tests/cxts/CMakeFiles/cxts.dir/build.make tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides.build
+.PHONY : tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides
+
+tests/cxts/CMakeFiles/cxts.dir/cxts.o.provides.build: tests/cxts/CMakeFiles/cxts.dir/cxts.o
+
 # Object files for target cxts
 cxts_OBJECTS = \
-"CMakeFiles/cxts.dir/cxts.o" \
 "CMakeFiles/cxts.dir/cxts_math.o" \
 "CMakeFiles/cxts.dir/cxts_arrtest.o" \
-"CMakeFiles/cxts.dir/precomp.o"
+"CMakeFiles/cxts.dir/precomp.o" \
+"CMakeFiles/cxts.dir/cxts.o"
 
 # External object files for target cxts
 cxts_EXTERNAL_OBJECTS =
 
-lib/libcxts.so.2.1.0: tests/cxts/CMakeFiles/cxts.dir/cxts.o
 lib/libcxts.so.2.1.0: tests/cxts/CMakeFiles/cxts.dir/cxts_math.o
 lib/libcxts.so.2.1.0: tests/cxts/CMakeFiles/cxts.dir/cxts_arrtest.o
 lib/libcxts.so.2.1.0: tests/cxts/CMakeFiles/cxts.dir/precomp.o
+lib/libcxts.so.2.1.0: tests/cxts/CMakeFiles/cxts.dir/cxts.o
 lib/libcxts.so.2.1.0: tests/cxts/CMakeFiles/cxts.dir/build.make
 lib/libcxts.so.2.1.0: lib/libcxcore.so.2.1.0
 lib/libcxts.so.2.1.0: 3rdparty/lib/libopencv_lapack.a
@@ -176,10 +176,10 @@ lib/libcxts.so: lib/libcxts.so.2.1.0
 tests/cxts/CMakeFiles/cxts.dir/build: lib/libcxts.so
 .PHONY : tests/cxts/CMakeFiles/cxts.dir/build
 
-tests/cxts/CMakeFiles/cxts.dir/requires: tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires
 tests/cxts/CMakeFiles/cxts.dir/requires: tests/cxts/CMakeFiles/cxts.dir/cxts_math.o.requires
 tests/cxts/CMakeFiles/cxts.dir/requires: tests/cxts/CMakeFiles/cxts.dir/cxts_arrtest.o.requires
 tests/cxts/CMakeFiles/cxts.dir/requires: tests/cxts/CMakeFiles/cxts.dir/precomp.o.requires
+tests/cxts/CMakeFiles/cxts.dir/requires: tests/cxts/CMakeFiles/cxts.dir/cxts.o.requires
 .PHONY : tests/cxts/CMakeFiles/cxts.dir/requires
 
 tests/cxts/CMakeFiles/cxts.dir/clean:

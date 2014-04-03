@@ -305,101 +305,9 @@ src/highgui/CMakeFiles/highgui.dir/bitstrm.o.provides: src/highgui/CMakeFiles/hi
 
 src/highgui/CMakeFiles/highgui.dir/bitstrm.o.provides.build: src/highgui/CMakeFiles/highgui.dir/bitstrm.o
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.o: src/highgui/CMakeFiles/highgui.dir/flags.make
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.o: ../src/highgui/grfmt_base.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_base.o"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_base.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_base.cpp
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_base.i"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_base.cpp > CMakeFiles/highgui.dir/grfmt_base.i
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_base.s"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_base.cpp -o CMakeFiles/highgui.dir/grfmt_base.s
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires:
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires
-	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides.build
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o: src/highgui/CMakeFiles/highgui.dir/flags.make
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o: ../src/highgui/grfmt_exr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_exr.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_exr.cpp
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_exr.i"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_exr.cpp > CMakeFiles/highgui.dir/grfmt_exr.i
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_exr.s"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_exr.cpp -o CMakeFiles/highgui.dir/grfmt_exr.s
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires:
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires
-	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides.build
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o: src/highgui/CMakeFiles/highgui.dir/flags.make
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o: ../src/highgui/grfmt_sunras.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_sunras.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_sunras.cpp
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_sunras.i"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_sunras.cpp > CMakeFiles/highgui.dir/grfmt_sunras.i
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_sunras.s"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_sunras.cpp -o CMakeFiles/highgui.dir/grfmt_sunras.s
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires:
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires
-	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides.build
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o: src/highgui/CMakeFiles/highgui.dir/flags.make
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o: ../src/highgui/grfmt_jpeg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_jpeg.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg.cpp
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_jpeg.i"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg.cpp > CMakeFiles/highgui.dir/grfmt_jpeg.i
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_jpeg.s"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg.cpp -o CMakeFiles/highgui.dir/grfmt_jpeg.s
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires:
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires
-	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides.build
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o
-
 src/highgui/CMakeFiles/highgui.dir/grfmt_png.o: src/highgui/CMakeFiles/highgui.dir/flags.make
 src/highgui/CMakeFiles/highgui.dir/grfmt_png.o: ../src/highgui/grfmt_png.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_png.o"
 	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_png.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_png.cpp
 
@@ -420,9 +328,55 @@ src/highgui/CMakeFiles/highgui.dir/grfmt_png.o.provides: src/highgui/CMakeFiles/
 
 src/highgui/CMakeFiles/highgui.dir/grfmt_png.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_png.o
 
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o: src/highgui/CMakeFiles/highgui.dir/flags.make
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o: ../src/highgui/grfmt_sunras.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_sunras.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_sunras.cpp
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_sunras.i"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_sunras.cpp > CMakeFiles/highgui.dir/grfmt_sunras.i
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_sunras.s"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_sunras.cpp -o CMakeFiles/highgui.dir/grfmt_sunras.s
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires:
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires
+	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides.build
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.o: src/highgui/CMakeFiles/highgui.dir/flags.make
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.o: ../src/highgui/grfmt_base.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_base.o"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_base.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_base.cpp
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_base.i"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_base.cpp > CMakeFiles/highgui.dir/grfmt_base.i
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_base.s"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_base.cpp -o CMakeFiles/highgui.dir/grfmt_base.s
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires:
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires
+	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides.build
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o
+
 src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o: src/highgui/CMakeFiles/highgui.dir/flags.make
 src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o: ../src/highgui/grfmt_pxm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o"
 	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_pxm.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_pxm.cpp
 
@@ -443,9 +397,78 @@ src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o.provides: src/highgui/CMakeFiles/
 
 src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o
 
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o: src/highgui/CMakeFiles/highgui.dir/flags.make
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o: ../src/highgui/grfmt_imageio.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_imageio.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_imageio.cpp
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_imageio.i"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_imageio.cpp > CMakeFiles/highgui.dir/grfmt_imageio.i
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_imageio.s"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_imageio.cpp -o CMakeFiles/highgui.dir/grfmt_imageio.s
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires:
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires
+	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides.build
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o: src/highgui/CMakeFiles/highgui.dir/flags.make
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o: ../src/highgui/grfmt_exr.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_exr.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_exr.cpp
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_exr.i"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_exr.cpp > CMakeFiles/highgui.dir/grfmt_exr.i
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_exr.s"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_exr.cpp -o CMakeFiles/highgui.dir/grfmt_exr.s
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires:
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires
+	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides.build
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o: src/highgui/CMakeFiles/highgui.dir/flags.make
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o: ../src/highgui/grfmt_jpeg.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_jpeg.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg.cpp
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_jpeg.i"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg.cpp > CMakeFiles/highgui.dir/grfmt_jpeg.i
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_jpeg.s"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg.cpp -o CMakeFiles/highgui.dir/grfmt_jpeg.s
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires:
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires
+	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides.build
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides
+
+src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o
+
 src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o: src/highgui/CMakeFiles/highgui.dir/flags.make
 src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o: ../src/highgui/grfmt_jpeg2000.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o"
 	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_jpeg2000.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_jpeg2000.cpp
 
@@ -465,29 +488,6 @@ src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o.provides: src/highgui/CMakeF
 .PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o.provides
 
 src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o: src/highgui/CMakeFiles/highgui.dir/flags.make
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o: ../src/highgui/grfmt_bmp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_bmp.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_bmp.cpp
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_bmp.i"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_bmp.cpp > CMakeFiles/highgui.dir/grfmt_bmp.i
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_bmp.s"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_bmp.cpp -o CMakeFiles/highgui.dir/grfmt_bmp.s
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires:
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires
-	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides.build
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides
-
-src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o
 
 src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o: src/highgui/CMakeFiles/highgui.dir/flags.make
 src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o: ../src/highgui/grfmt_tiff.cpp
@@ -512,28 +512,28 @@ src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o.provides: src/highgui/CMakeFiles
 
 src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o: src/highgui/CMakeFiles/highgui.dir/flags.make
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o: ../src/highgui/grfmt_imageio.cpp
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o: src/highgui/CMakeFiles/highgui.dir/flags.make
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o: ../src/highgui/grfmt_bmp.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/sandy/Iris/OPENCV/release/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_imageio.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_imageio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/highgui.dir/grfmt_bmp.o -c /home/sandy/Iris/OPENCV/src/highgui/grfmt_bmp.cpp
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_imageio.i"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_imageio.cpp > CMakeFiles/highgui.dir/grfmt_imageio.i
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highgui.dir/grfmt_bmp.i"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sandy/Iris/OPENCV/src/highgui/grfmt_bmp.cpp > CMakeFiles/highgui.dir/grfmt_bmp.i
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_imageio.s"
-	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_imageio.cpp -o CMakeFiles/highgui.dir/grfmt_imageio.s
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highgui.dir/grfmt_bmp.s"
+	cd /home/sandy/Iris/OPENCV/release/src/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sandy/Iris/OPENCV/src/highgui/grfmt_bmp.cpp -o CMakeFiles/highgui.dir/grfmt_bmp.s
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires:
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires:
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires
-	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides.build
-.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires
+	$(MAKE) -f src/highgui/CMakeFiles/highgui.dir/build.make src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides.build
+.PHONY : src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides
 
-src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o
+src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.provides.build: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o
 
 # Object files for target highgui
 highgui_OBJECTS = \
@@ -548,16 +548,16 @@ highgui_OBJECTS = \
 "CMakeFiles/highgui.dir/cvcap_dc1394_v2.o" \
 "CMakeFiles/highgui.dir/cvcap_v4l.o" \
 "CMakeFiles/highgui.dir/bitstrm.o" \
-"CMakeFiles/highgui.dir/grfmt_base.o" \
-"CMakeFiles/highgui.dir/grfmt_exr.o" \
-"CMakeFiles/highgui.dir/grfmt_sunras.o" \
-"CMakeFiles/highgui.dir/grfmt_jpeg.o" \
 "CMakeFiles/highgui.dir/grfmt_png.o" \
+"CMakeFiles/highgui.dir/grfmt_sunras.o" \
+"CMakeFiles/highgui.dir/grfmt_base.o" \
 "CMakeFiles/highgui.dir/grfmt_pxm.o" \
+"CMakeFiles/highgui.dir/grfmt_imageio.o" \
+"CMakeFiles/highgui.dir/grfmt_exr.o" \
+"CMakeFiles/highgui.dir/grfmt_jpeg.o" \
 "CMakeFiles/highgui.dir/grfmt_jpeg2000.o" \
-"CMakeFiles/highgui.dir/grfmt_bmp.o" \
 "CMakeFiles/highgui.dir/grfmt_tiff.o" \
-"CMakeFiles/highgui.dir/grfmt_imageio.o"
+"CMakeFiles/highgui.dir/grfmt_bmp.o"
 
 # External object files for target highgui
 highgui_EXTERNAL_OBJECTS =
@@ -573,16 +573,16 @@ lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/window_gtk.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/cvcap_dc1394_v2.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/cvcap_v4l.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/bitstrm.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_png.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o
-lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o
+lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o
 lib/libhighgui.so.2.1.0: src/highgui/CMakeFiles/highgui.dir/build.make
 lib/libhighgui.so.2.1.0: lib/libcxcore.so.2.1.0
 lib/libhighgui.so.2.1.0: lib/libcv.so.2.1.0
@@ -624,16 +624,16 @@ src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/
 src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/cvcap_dc1394_v2.o.requires
 src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/cvcap_v4l.o.requires
 src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/bitstrm.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires
 src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_png.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_sunras.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_base.o.requires
 src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_pxm.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires
-src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o.requires
 src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_imageio.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_exr.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_jpeg2000.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_tiff.o.requires
+src/highgui/CMakeFiles/highgui.dir/requires: src/highgui/CMakeFiles/highgui.dir/grfmt_bmp.o.requires
 .PHONY : src/highgui/CMakeFiles/highgui.dir/requires
 
 src/highgui/CMakeFiles/highgui.dir/clean:
