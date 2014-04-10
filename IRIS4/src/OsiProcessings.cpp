@@ -540,7 +540,7 @@ namespace osiris
             cvSetImageROI(shifted,cvRect(shift+s,0,image1->width,image1->height)) ;            
             cvXor(shifted,image2,result,mask) ;
             
-            //YTF
+            /*//YTF
             if(false)
             {
                 string dd;
@@ -549,16 +549,18 @@ namespace osiris
                 string name="/home/sandy/result"+ss.str()+".jpg";
                 cvSaveImage(name.c_str(),result);
             }
-            m++;
+            m++;*/
             cvResetImageROI(shifted) ;
             float mean = (cvSum(result).val[0])/(cvSum(mask).val[0]) ;
+            /*
             if(mean<score)
             {
                 best=cvCloneImage(result);
-            }
+            }*/
             score = min(score,mean) ;
         }
         
+        /*
         string dd;
         stringstream ss(dd);
         ss<<m;
@@ -568,6 +570,7 @@ namespace osiris
         name="/home/sandy/result"+ss.str()+".bin";
         ofstream outf(name.c_str(),ios::binary);
         outf.write(data,best->imageSize);
+        */
         //m++;
         // Free memory
         cvReleaseImage(&shifted) ;

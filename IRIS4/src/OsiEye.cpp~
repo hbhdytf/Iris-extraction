@@ -427,8 +427,8 @@ namespace osiris
             cvResetImageROI(total_mask) ;
         }
         //YTF
-        string name="/home/sandy/totalmask.bmp";
-        cvSaveImage(name.c_str(),total_mask);
+        string name="/home/sandy/result"+ss.str()+".bmp";
+        cvSaveImage(name.c_str(),best);
         // Match
         OsiProcessings op ;
         float score = op.match(mpIrisCode,rEye.mpIrisCode,total_mask) ;
